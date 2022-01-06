@@ -7,6 +7,7 @@ on:
 
 jobs:
   update-readme:
+    name: Update README
     runs-on: ubuntu-latest
 
     steps:
@@ -15,7 +16,8 @@ jobs:
         with:
           ssh-key: ${{ secrets.SSH_KEY }}
 
-      - uses: jamesgeorge007/github-activity-readme@master
+      - name: Update recent activity
+        uses: jamesgeorge007/github-activity-readme@master
         env:
           GITHUB_TOKEN: ${{ secrets.PAT }}
         with:

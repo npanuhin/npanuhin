@@ -9,7 +9,7 @@
 
 
 <details>
-  <summary>GitHub Issues and Pull Requests activity</summary>
+  <summary>Issues and Pull Requests activity</summary>
   
   <!--START_SECTION:activity-->
 1. ❗️ Closed issue [#3](https://github.com/npanuhin/npanuhin/issues/3) in [npanuhin/npanuhin](https://github.com/npanuhin/npanuhin)
