@@ -12,6 +12,11 @@
   <summary>GitHub Issues and Pull Requests activity</summary>
   
   <!--START_SECTION:activity-->
+1. ❗️ Closed issue [#3](https://github.com/npanuhin/npanuhin/issues/3) in [npanuhin/npanuhin](https://github.com/npanuhin/npanuhin)
+2. ❗️ Closed issue [#2](https://github.com/npanuhin/npanuhin/issues/2) in [npanuhin/npanuhin](https://github.com/npanuhin/npanuhin)
+3. ❗️ Closed issue [#1](https://github.com/npanuhin/npanuhin/issues/1) in [npanuhin/npanuhin](https://github.com/npanuhin/npanuhin)
+4. ❗️ Opened issue [#3](https://github.com/npanuhin/npanuhin/issues/3) in [npanuhin/npanuhin](https://github.com/npanuhin/npanuhin)
+5. ❗️ Opened issue [#2](https://github.com/npanuhin/npanuhin/issues/2) in [npanuhin/npanuhin](https://github.com/npanuhin/npanuhin)
   <!--END_SECTION:activity-->
   
 </details>
