@@ -1,0 +1,22 @@
+name: Update README
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v2
+        with:
+          ssh-key: ${{ secrets.SSH_KEY }}
+
+      - uses: jamesgeorge007/github-activity-readme@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT }}
+        with:
+          COMMIT_MSG: 'Updated recent activity'
