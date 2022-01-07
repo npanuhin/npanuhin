@@ -5,7 +5,7 @@
 </div>
 
 <!-- Activity graph -->
-![](https://activity-graph.herokuapp.com/graph?username=npanuhin&theme=react-dark&hide_border=true&area=true&hide_title=false&custom_title=My%20contributions%20on%20GitHub)
+![](https://activity-graph.herokuapp.com/graph?username=npanuhin&theme=react-dark&hide_border=true&area=true&hide_title=false&custom_title=GitHub%20contributions)
 
 
 <details>
