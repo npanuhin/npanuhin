@@ -12,11 +12,11 @@
   <summary>Issues and Pull Requests activity</summary>
 
   <!--START_SECTION:activity-->
-1. ❗️ Closed issue [#3](https://github.com/npanuhin/npanuhin/issues/3) in [npanuhin/npanuhin](https://github.com/npanuhin/npanuhin)
-2. ❗️ Closed issue [#2](https://github.com/npanuhin/npanuhin/issues/2) in [npanuhin/npanuhin](https://github.com/npanuhin/npanuhin)
-3. ❗️ Closed issue [#1](https://github.com/npanuhin/npanuhin/issues/1) in [npanuhin/npanuhin](https://github.com/npanuhin/npanuhin)
-4. ❗️ Opened issue [#3](https://github.com/npanuhin/npanuhin/issues/3) in [npanuhin/npanuhin](https://github.com/npanuhin/npanuhin)
-5. ❗️ Opened issue [#2](https://github.com/npanuhin/npanuhin/issues/2) in [npanuhin/npanuhin](https://github.com/npanuhin/npanuhin)
+1. ❗️ Opened issue [#584](https://github.com/evaristocuesta/evaristocuesta/issues/584) in [evaristocuesta/evaristocuesta](https://github.com/evaristocuesta/evaristocuesta)
+2. ❗️ Opened issue [#583](https://github.com/evaristocuesta/evaristocuesta/issues/583) in [evaristocuesta/evaristocuesta](https://github.com/evaristocuesta/evaristocuesta)
+3. ❗️ Opened issue [#582](https://github.com/evaristocuesta/evaristocuesta/issues/582) in [evaristocuesta/evaristocuesta](https://github.com/evaristocuesta/evaristocuesta)
+4. ❗️ Opened issue [#581](https://github.com/evaristocuesta/evaristocuesta/issues/581) in [evaristocuesta/evaristocuesta](https://github.com/evaristocuesta/evaristocuesta)
+5. ❗️ Opened issue [#580](https://github.com/evaristocuesta/evaristocuesta/issues/580) in [evaristocuesta/evaristocuesta](https://github.com/evaristocuesta/evaristocuesta)
   <!--END_SECTION:activity-->
 
 </details>
