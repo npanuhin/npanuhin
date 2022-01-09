@@ -5,7 +5,7 @@
 </div>
 
 <!-- Activity graph -->
-![](https://npanuhin-activity-graph.herokuapp.com/graph?username=npanuhin&theme=react-dark&bg_color=transparent&point=00ff12&hide_border=true&area=true&custom_title=GitHub%20contributions)
+![](https://raw.githubusercontent.com/npanuhin/npanuhin/output/activity-graph.svg)
 
 
 <details>
