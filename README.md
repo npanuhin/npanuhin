@@ -9,15 +9,9 @@
 
 
 <details>
-  <summary>Issues and Pull Requests activity</summary>
+<summary>Issues and Pull Requests activity</summary>
 
-  <!--START_SECTION:activity-->
-1. ❗️ Opened issue [#603](https://github.com/evaristocuesta/evaristocuesta/issues/603) in [evaristocuesta/evaristocuesta](https://github.com/evaristocuesta/evaristocuesta)
-2. ❗️ Opened issue [#602](https://github.com/evaristocuesta/evaristocuesta/issues/602) in [evaristocuesta/evaristocuesta](https://github.com/evaristocuesta/evaristocuesta)
-3. ❗️ Opened issue [#601](https://github.com/evaristocuesta/evaristocuesta/issues/601) in [evaristocuesta/evaristocuesta](https://github.com/evaristocuesta/evaristocuesta)
-4. ❗️ Opened issue [#1](https://github.com/zhengchun/bingwallpaper/issues/1) in [zhengchun/bingwallpaper](https://github.com/zhengchun/bingwallpaper)
-5. ❗️ Opened issue [#594](https://github.com/evaristocuesta/evaristocuesta/issues/594) in [evaristocuesta/evaristocuesta](https://github.com/evaristocuesta/evaristocuesta)
-  <!--END_SECTION:activity-->
+<!--START_SECTION:activity-->
 
 </details>
 
