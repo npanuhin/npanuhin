@@ -9,7 +9,7 @@
 
 
 <details>
-<summary>Issues and Pull Requests activity</summary>
+<summary>Latest Issues and Pull Requests</summary>
 
 <!--START_SECTION:activity-->
 1. ❗️ Opened issue [#603](https://github.com/evaristocuesta/evaristocuesta/issues/603) in [evaristocuesta/evaristocuesta](https://github.com/evaristocuesta/evaristocuesta)
