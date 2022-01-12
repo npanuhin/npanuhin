@@ -9,13 +9,9 @@
 
 
 <details>
-<summary>Latest Issues and Pull Requests</summary>
+<summary>GitHub activity</summary>
 
-<!--START_SECTION:activity-->
-1. 🗣 Commented on [#174](https://github.com/MadeBaruna/paimon-moe/issues/174) in [MadeBaruna/paimon-moe](https://github.com/MadeBaruna/paimon-moe)
-2. 🗣 Commented on [#187](https://github.com/MadeBaruna/paimon-moe/issues/187) in [MadeBaruna/paimon-moe](https://github.com/MadeBaruna/paimon-moe)
-3. 🗣 Commented on [#194](https://github.com/MadeBaruna/paimon-moe/issues/194) in [MadeBaruna/paimon-moe](https://github.com/MadeBaruna/paimon-moe)
-<!--END_SECTION:activity-->
+<!--RECENT_ACTIVITY:start-->
 
 </details>
 

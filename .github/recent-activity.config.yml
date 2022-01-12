@@ -1,0 +1,7 @@
+settings:
+  commit_msg: Updated recent activity
+  max_lines: 7
+  commit_name: GitHub Actions
+  commit_email: 41898282+github-actions[bot]@users.noreply.github.com
+  date:
+    timezone: Europe/Moscow

@@ -1,4 +1,4 @@
-name: Half an hour update
+name: Contributions graph update
 
 on:
   schedule:
@@ -6,8 +6,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  update-readme:
-    name: Update README
+  update-contributions-graph:
+    name: Update contributions graph
     runs-on: ubuntu-latest
 
     steps:
@@ -31,10 +31,3 @@ jobs:
           allow_empty_commit: false
         env:
           GITHUB_TOKEN: ${{ secrets.PAT }}
-
-      - name: Update recent activity
-        uses: jamesgeorge007/github-activity-readme@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.PAT }}
-        with:
-          COMMIT_MSG: Updated recent activity
