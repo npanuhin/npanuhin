@@ -12,8 +12,8 @@
 <summary>Latest Issues and Pull Requests</summary>
 
 <!--START_SECTION:activity-->
-1. ❗️ Opened issue [#603](https://github.com/evaristocuesta/evaristocuesta/issues/603) in [evaristocuesta/evaristocuesta](https://github.com/evaristocuesta/evaristocuesta)
-2. ❗️ Opened issue [#602](https://github.com/evaristocuesta/evaristocuesta/issues/602) in [evaristocuesta/evaristocuesta](https://github.com/evaristocuesta/evaristocuesta)
+1. 🗣 Commented on [#187](https://github.com/MadeBaruna/paimon-moe/issues/187) in [MadeBaruna/paimon-moe](https://github.com/MadeBaruna/paimon-moe)
+2. 🗣 Commented on [#194](https://github.com/MadeBaruna/paimon-moe/issues/194) in [MadeBaruna/paimon-moe](https://github.com/MadeBaruna/paimon-moe)
 3. ❗️ Opened issue [#601](https://github.com/evaristocuesta/evaristocuesta/issues/601) in [evaristocuesta/evaristocuesta](https://github.com/evaristocuesta/evaristocuesta)
 <!--END_SECTION:activity-->
 
