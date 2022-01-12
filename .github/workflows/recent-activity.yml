@@ -1,0 +1,22 @@
+name: Recent activity update
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+jobs:
+  update-recent-activity:
+    name: Update recent activity
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v2
+        with:
+          ssh-key: ${{ secrets.SSH_KEY }}
+
+      - name: Update recent activity
+        uses: Readme-Workflows/recent-activity@v2.3.2
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT }}
