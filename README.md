@@ -12,9 +12,9 @@
 <summary>GitHub activity</summary>
 
 <!--RECENT_ACTIVITY:start-->
-1. 💬 Commented on [#174](https://github.com/MadeBaruna/paimon-moe/issues/174#issuecomment-1011350380) in [MadeBaruna/paimon-moe](https://github.com/MadeBaruna/paimon-moe)
-2. 💬 Commented on [#187](https://github.com/MadeBaruna/paimon-moe/issues/187#issuecomment-1011348117) in [MadeBaruna/paimon-moe](https://github.com/MadeBaruna/paimon-moe)
-3. 💬 Commented on [#194](https://github.com/MadeBaruna/paimon-moe/issues/194#issuecomment-1011344088) in [MadeBaruna/paimon-moe](https://github.com/MadeBaruna/paimon-moe)
+1. <img src=".github/icons/Comment.svg"> Commented on [#174](https://github.com/MadeBaruna/paimon-moe/issues/174#issuecomment-1011350380) in [MadeBaruna/paimon-moe](https://github.com/MadeBaruna/paimon-moe)
+2. <img src=".github/icons/Comment.svg"> Commented on [#187](https://github.com/MadeBaruna/paimon-moe/issues/187#issuecomment-1011348117) in [MadeBaruna/paimon-moe](https://github.com/MadeBaruna/paimon-moe)
+3. <img src=".github/icons/Comment.svg"> Commented on [#194](https://github.com/MadeBaruna/paimon-moe/issues/194#issuecomment-1011344088) in [MadeBaruna/paimon-moe](https://github.com/MadeBaruna/paimon-moe)
 4. 
 5. 
 6. 
@@ -22,6 +22,45 @@
 <!--RECENT_ACTIVITY:end-->
 
 </details>
+
+
+
+
+
+
+<!----------------------- DEBUG ------------------------- DEBUG ------------------- DEBUG ----------------------------->
+
+
+<!-- For testing icons -->
+<!-- <img src=".github/icons/Comment.svg"> Commented on {ID} in {REPO}'
+
+<img src=".github/icons/IssueOpened.svg"> Opened issue {ID} in {REPO}'
+
+<img src=".github/icons/IssueClosed.svg"> Closed issue {ID} in {REPO}'
+
+<img src=".github/icons/PullRequestOpened.svg"> Opened PR {ID} in {REPO}'
+
+<img src=".github/icons/PullRequestClosed.svg"> Closed PR {ID} in {REPO}'
+
+<img src=".github/icons/PullRequestMerged.svg"> Merged PR {ID} in {REPO}'
+
+<img src=".github/icons/RepositoryCreated.svg"> Created new repository {REPO}'
+
+<img src=".github/icons/ForkedRepository.svg"> Forked {FORK} from {REPO}'
+
+<img src=".github/icons/Wiki.svg"> Created new wiki page {WIKI} in {REPO}'
+
+<img src=".github/icons/People.svg"> Became collaborator on {REPO}'
+
+<img src=".github/icons/ApprovedChanges.svg"> Approved {ID} in {REPO}'
+
+<img src=".github/icons/RequestedChanges.svg"> Requested changes in {ID} in {REPO}'
+
+<img src=".github/icons/Release.svg"> Released {ID} in {REPO}'
+
+<img src=".github/icons/StarredRepository.svg"> Starred {REPO}' -->
+
+
 
 
 <!-- https://github-readme-stats.vercel.app/api/pin/?username=npanuhin&repo=BIOCAD&theme=github_dark&bg_color=transparent -->
