@@ -18,15 +18,15 @@ jobs:
       
       - name: Download Readme Activity Graph
         run: |
-          mkdir static_assets
-          cd static_assets
+          mkdir activity-graph-cache
+          cd activity-graph-cache
           wget -O "activity-graph.svg" "https://npanuhin-github-activity-graph.herokuapp.com/graph?username=npanuhin&theme=react-dark&bg_color=transparent&point=00ff12&hide_border=true&area=true&custom_title=GitHub%20contributions"
 
       - name: Push static assets
         uses: crazy-max/ghaction-github-pages@v2.5.0
         with:
-          target_branch: output
-          build_dir: static_assets
+          target_branch: activity-graph
+          build_dir: activity-graph-cache
           commit_message: Updated static assets
           allow_empty_commit: false
         env:
