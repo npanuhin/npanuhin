@@ -11,10 +11,57 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Clone repository
+      - name: Checkout recent-activity
+        uses: actions/checkout@v2
+        with:
+          ref: recent-activity
+
+      - name: Temporarily move cache file
+        run: cp "cache.json" "../recent-activity-cache.json"
+
+      - name: Checkout repository
         uses: actions/checkout@v2
 
+      - name: Place cache file
+        run: mv "../recent-activity-cache.json" ".github/recent-activity/cache.json"
+
+      - name: Install Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+          architecture: 'x64'
+
+      - name: Install Python's requirements
+        working-directory: .github/recent-activity
+        run: pip install -r requests yaml
+
       - name: Update recent activity
-        uses: Readme-Workflows/recent-activity@v2.3.2
+        working-directory: .github/recent-activity
+        run: python update_activity.py
         env:
           GITHUB_TOKEN: ${{ secrets.PAT }}
+
+      - name: Commit and push README
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          file_pattern: "/README"
+          commit_message: "Images recent activity"
+          commit_user_name: GitHub Actions
+          commit_user_email: 41898282+github-actions[bot]@users.noreply.github.com
+          commit_author: GitHub Actions <41898282+github-actions[bot]@users.noreply.github.com>
+
+      - name: Place cache file
+        run: |
+          mkdir recent-activity-tmp
+          cp ".github/recent-activity/cache.json" "recent-activity-tmp/cache.json"
+
+      - name: Store cache file
+        uses: crazy-max/ghaction-github-pages@v2.6.0
+        with:
+          target_branch: recent-activity
+          build_dir: recent-activity-tmp
+          commit_message: Updated recent activity
+          allow_empty_commit: false
+        env:
+          GH_PAT: ${{ secrets.PAT }}
+

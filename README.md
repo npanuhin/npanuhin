@@ -1,11 +1,12 @@
 <div align="center">
 	<h1>Hi there 👋</h1>
+	<!-- <h1>Hi there <img src="https://raw.githubusercontent.com/blackcater/blackcater/main/images/Hi.gif" alt="" height="32"></h1> -->
 	<!-- <img alt="Hi there 👋" src="https://readme-typing-svg.herokuapp.com?color=%23FFFFFF&size=30&center=true&vCenter=true&lines=Hi+there+%F0%9F%91%8B"> -->
 	<!-- [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%23FFFFFF&vCenter=true&lines=Hi+there+%F0%9F%91%8B)](https://git.io/typing-svg) -->
 </div>
 
 <!-- Activity graph -->
-![](https://raw.githubusercontent.com/npanuhin/npanuhin/activity-graph/activity-graph.svg)
+<!-- ![](https://raw.githubusercontent.com/npanuhin/npanuhin/activity-graph/activity-graph.svg) -->
 
 
 <!-- <details>

@@ -22,12 +22,12 @@ jobs:
           cd activity-graph-cache
           wget -O "activity-graph.svg" "https://npanuhin-github-activity-graph.herokuapp.com/graph?username=npanuhin&theme=react-dark&bg_color=transparent&point=00ff12&hide_border=true&area=true&custom_title=GitHub%20contributions"
 
-      - name: Push static assets
+      - name: Push generated graph
         uses: crazy-max/ghaction-github-pages@v2.5.0
         with:
           target_branch: activity-graph
           build_dir: activity-graph-cache
-          commit_message: Updated static assets
+          commit_message: Updated contributions graph
           allow_empty_commit: false
         env:
           GITHUB_TOKEN: ${{ secrets.PAT }}
