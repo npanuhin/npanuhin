@@ -6,9 +6,9 @@
 </div>
 
 <!-- I greatly appreciate your contributions to my repositories: [explore](?tab=repositories), create GitHub Issues, and submit Pull Requests! 😉 -->
-I greatly appreciate every contribution to my repositories: [explore](https://github.com/npanuhin?tab=repositories)![](.github/icons/Repository.svg), create GitHub Issues![](.github/icons/IssueOpened.svg), and submit Pull Requests![](.github/icons/PullRequestOpened.svg)! 😉
+I greatly appreciate every contribution to my repositories: [explore](https://github.com/npanuhin?tab=repositories)![](src/icons/Repository.svg), create GitHub Issues![](src/icons/IssueOpened.svg), and submit Pull Requests![](src/icons/PullRequestOpened.svg)! 😉
 
-If my repository is _archived_![](.github/icons/Archive.svg), then I no longer maintain it. But you can still submit an issue [here](https://github.com/npanuhin/npanuhin/issues/new?template=questions-regarding-the-archived-repository.md) or [contact me directly](mailto:github@npanuhin.me?subject=Questions%20regarding%20the%20archived%20repository:%20<repository%20name%20here>) to ask a question.
+If my repository is _archived_![](src/icons/Archive.svg), then I no longer maintain it. But you can still submit an issue [here](https://github.com/npanuhin/npanuhin/issues/new?template=questions-regarding-the-archived-repository.md) or [contact me directly](mailto:github@npanuhin.me?subject=Questions%20regarding%20the%20archived%20repository:%20<repository%20name%20here>) to ask a question.
 
 <!-- Activity graph -->
 <!-- ![](https://raw.githubusercontent.com/npanuhin/npanuhin/activity-graph/activity-graph.svg) -->
@@ -17,9 +17,9 @@ If my repository is _archived_![](.github/icons/Archive.svg), then I no longer m
 <!-- <details>
 <summary>GitHub activity</summary>
 
-1. <img src=".github/icons/Comment.svg"> Commented on [#174](https://github.com/MadeBaruna/paimon-moe/issues/174#issuecomment-1011350380) in [MadeBaruna/paimon-moe](https://github.com/MadeBaruna/paimon-moe)
-2. <img src=".github/icons/Comment.svg"> Commented on [#187](https://github.com/MadeBaruna/paimon-moe/issues/187#issuecomment-1011348117) in [MadeBaruna/paimon-moe](https://github.com/MadeBaruna/paimon-moe)
-3. <img src=".github/icons/Comment.svg"> Commented on [#194](https://github.com/MadeBaruna/paimon-moe/issues/194#issuecomment-1011344088) in [MadeBaruna/paimon-moe](https://github.com/MadeBaruna/paimon-moe)
+1. <img src="src/icons/Comment.svg"> Commented on [#174](https://github.com/MadeBaruna/paimon-moe/issues/174#issuecomment-1011350380) in [MadeBaruna/paimon-moe](https://github.com/MadeBaruna/paimon-moe)
+2. <img src="src/icons/Comment.svg"> Commented on [#187](https://github.com/MadeBaruna/paimon-moe/issues/187#issuecomment-1011348117) in [MadeBaruna/paimon-moe](https://github.com/MadeBaruna/paimon-moe)
+3. <img src="src/icons/Comment.svg"> Commented on [#194](https://github.com/MadeBaruna/paimon-moe/issues/194#issuecomment-1011344088) in [MadeBaruna/paimon-moe](https://github.com/MadeBaruna/paimon-moe)
 4. 
 5. 
 6. 
@@ -36,33 +36,33 @@ If my repository is _archived_![](.github/icons/Archive.svg), then I no longer m
 
 
 <!-- For testing icons -->
-<!-- <img src=".github/icons/Comment.svg"> Commented on {ID} in {REPO}'
+<!-- <img src="src/icons/Comment.svg"> Commented on {ID} in {REPO}'
 
-<img src=".github/icons/IssueOpened.svg"> Opened issue {ID} in {REPO}'
+<img src="src/icons/IssueOpened.svg"> Opened issue {ID} in {REPO}'
 
-<img src=".github/icons/IssueClosed.svg"> Closed issue {ID} in {REPO}'
+<img src="src/icons/IssueClosed.svg"> Closed issue {ID} in {REPO}'
 
-<img src=".github/icons/PullRequestOpened.svg"> Opened PR {ID} in {REPO}'
+<img src="src/icons/PullRequestOpened.svg"> Opened PR {ID} in {REPO}'
 
-<img src=".github/icons/PullRequestClosed.svg"> Closed PR {ID} in {REPO}'
+<img src="src/icons/PullRequestClosed.svg"> Closed PR {ID} in {REPO}'
 
-<img src=".github/icons/PullRequestMerged.svg"> Merged PR {ID} in {REPO}'
+<img src="src/icons/PullRequestMerged.svg"> Merged PR {ID} in {REPO}'
 
-<img src=".github/icons/RepositoryCreated.svg"> Created new repository {REPO}'
+<img src="src/icons/RepositoryCreated.svg"> Created new repository {REPO}'
 
-<img src=".github/icons/ForkedRepository.svg"> Forked {FORK} from {REPO}'
+<img src="src/icons/ForkedRepository.svg"> Forked {FORK} from {REPO}'
 
-<img src=".github/icons/Wiki.svg"> Created new wiki page {WIKI} in {REPO}'
+<img src="src/icons/Wiki.svg"> Created new wiki page {WIKI} in {REPO}'
 
-<img src=".github/icons/People.svg"> Became collaborator on {REPO}'
+<img src="src/icons/People.svg"> Became collaborator on {REPO}'
 
-<img src=".github/icons/ApprovedChanges.svg"> Approved {ID} in {REPO}'
+<img src="src/icons/ApprovedChanges.svg"> Approved {ID} in {REPO}'
 
-<img src=".github/icons/RequestedChanges.svg"> Requested changes in {ID} in {REPO}'
+<img src="src/icons/RequestedChanges.svg"> Requested changes in {ID} in {REPO}'
 
-<img src=".github/icons/Release.svg"> Released {ID} in {REPO}'
+<img src="src/icons/Release.svg"> Released {ID} in {REPO}'
 
-<img src=".github/icons/StarredRepository.svg"> Starred {REPO}' -->
+<img src="src/icons/StarredRepository.svg"> Starred {REPO}' -->
 
 
 
