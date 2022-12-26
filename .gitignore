@@ -2,7 +2,7 @@
 __pycache__/
 
 # Test results
-/.github/recent-activity/tests/events_test_result.*
+**/recent-activity/tests/events_test_result.*
 
 # Configs
-/.github/recent-activity/GITHUB_TOKEN.txt
+**/recent-activity/GITHUB_TOKEN.txt
