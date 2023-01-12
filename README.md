@@ -10,7 +10,7 @@ I greatly appreciate every contribution to my repositories: [explore](https://gi
 
 If my repository is _archived_![](src/icons/Archive.svg), then I no longer maintain it. But you can still submit an issue [here](https://github.com/npanuhin/npanuhin/issues/new?template=questions-regarding-the-archived-repository.md) or [contact me directly](mailto:github@npanuhin.me?subject=Questions%20regarding%20the%20archived%20repository:%20<repository%20name%20here>) to ask a question.
 
-<!-- Langbar?exclude=Jupyter Notebook&replace=Hack,PHP -->
+[<img src="https://raw.githubusercontent.com/npanuhin/npanuhin/language-bar/bar.svg" width="100%">](https://github.com/npanuhin/GitHub-Language-Bar)<!-- Langbar?exclude=Jupyter Notebook&replace=Hack,PHP -->
 
 <!-- Activity graph -->
 <!-- ![](https://raw.githubusercontent.com/npanuhin/npanuhin/activity-graph/activity-graph.svg) -->
