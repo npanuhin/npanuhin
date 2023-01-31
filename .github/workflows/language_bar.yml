@@ -18,3 +18,4 @@ jobs:
         uses: npanuhin/GitHub-Language-Bar@master
         with:
           gh_token: ${{ secrets.LANG_BAR_PAT }}
+          # log: true
