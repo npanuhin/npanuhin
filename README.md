@@ -32,8 +32,15 @@ If my repository is _archived_![](src/icons/Archive.svg), then I no longer maint
 </details>
  -->
 
+<div align="center">
 
+[<img src="src/logos/vk.svg" width="37">](https://vk.com/npanuhin)                         
+[<img src="src/logos/telegram.svg" width="37">](https://t.me/npanuhin)                         
+[<img src="src/logos/discord.svg" width="37">](https://discord.com/users/532989319481393183)
+<!--                          
+[<img src="src/logos/linkedin.svg" width="37">](https://www.linkedin.com/in/npanuhin) -->
 
+</div>
 
 
 <!----------------------- DEBUG ------------------------- DEBUG ------------------- DEBUG ----------------------------->
