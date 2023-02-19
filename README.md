@@ -1,9 +1,19 @@
 <div align="center">
-	<h1>Hi there 👋</h1>
-	<!-- <h1>Hi there <img src="https://raw.githubusercontent.com/blackcater/blackcater/main/images/Hi.gif" alt="" height="32"></h1> -->
-	<!-- <img alt="Hi there 👋" src="https://readme-typing-svg.herokuapp.com?color=%23FFFFFF&size=30&center=true&vCenter=true&lines=Hi+there+%F0%9F%91%8B"> -->
-	<!-- [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%23FFFFFF&vCenter=true&lines=Hi+there+%F0%9F%91%8B)](https://git.io/typing-svg) -->
+  <h1>Hi there 👋</h1>
+  <!-- <h1>Hi there <img src="https://raw.githubusercontent.com/blackcater/blackcater/main/images/Hi.gif" alt="" height="32"></h1> -->
 </div>
+
+<!-- ![](src/old_man.gif)
+![](src/old_man.127.gif) -->
+<!-- <img src="src/old_man.gif" width="100%"> -->
+
+<!-- <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="src/old_man.gif">
+  <img>
+</picture> -->
+
+
+<!-- > I'm testing my profile page right now, WIP! -->
 
 <!-- I greatly appreciate your contributions to my repositories: [explore](?tab=repositories), create GitHub Issues, and submit Pull Requests! 😉 -->
 I greatly appreciate every contribution to my repositories: [explore](https://github.com/npanuhin?tab=repositories)![](src/icons/Repository.svg), create GitHub Issues![](src/icons/IssueOpened.svg), and submit Pull Requests![](src/icons/PullRequestOpened.svg)! 😉
@@ -34,12 +44,16 @@ If my repository is _archived_![](src/icons/Archive.svg), then I no longer maint
 
 <div align="center">
 
-[<img src="src/logos/vk.svg" width="37">](https://vk.com/npanuhin)                         
-[<img src="src/logos/telegram.svg" width="37">](https://t.me/npanuhin)                         
-[<img src="src/logos/discord.svg" width="37">](https://discord.com/users/532989319481393183)
-<!--                          
-[<img src="src/logos/linkedin.svg" width="37">](https://www.linkedin.com/in/npanuhin) -->
+  [![](https://img.shields.io/static/v1?style=for-the-badge&label=&message=Telegram［FASTEST］&color=2CA5E0&logo=telegram&logoColor=white)](https://t.me/npanuhin)
+  [![](https://img.shields.io/static/v1?style=for-the-badge&label=&message=VK&color=0077FF&logo=vk&logoColor=white)](https://vk.com/npanuhin)
+  [![](https://img.shields.io/static/v1?style=for-the-badge&label=&message=Discord&color=5865F2&logo=discord&logoColor=white)](https://discord.com/users/532989319481393183)
+  [![](https://img.shields.io/static/v1?style=for-the-badge&label=&message=LinkedIn&color=0A66C2&logo=LinkedIn&logoColor=white)](https://linkedin.com/in/npanuhin)
+  [![](https://img.shields.io/static/v1?style=for-the-badge&label=&message=Email［OFFICIAL］&color=C71610&logo=Mail.Ru&logoColor=white)](mailto:github@npanuhin.me)
 
+  <!-- ᴼᶠᶠᶦᶜᶦᵃˡ -->
+
+<!-- [<img src="src/social_media_icons/telegram.svg" width="37">](https://t.me/npanuhin)<sup><kbd><samp>fastest</samp></kbd></sup>     [<img src="src/social_media_icons/vk.svg" width="37">](https://vk.com/npanuhin)     [<img src="src/social_media_icons/discord.svg" width="37">](https://discord.com/users/532989319481393183)     [<img src="src/social_media_icons/linkedin.svg" width="37">](https://linkedin.com/in/npanuhin)     [<img src="src/social_media_icons/mail2.svg" width="37">](mailto:github@npanuhin.me)<sup><kbd><samp>official</samp></kbd></sup>
+ -->
 </div>
 
 
