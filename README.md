@@ -3,9 +3,7 @@
   <!-- <h1>Hi there <img src="https://raw.githubusercontent.com/blackcater/blackcater/main/images/Hi.gif" alt="" height="32"></h1> -->
 </div>
 
-<!-- ![](src/old_man.gif)
-![](src/old_man.127.gif) -->
-<!-- <img src="src/old_man.gif" width="100%"> -->
+<!-- <img src="src/old_man/result.svg?" width="100%"> -->
 
 <!-- <picture>
   <source media="(prefers-color-scheme: dark)" srcset="src/old_man.gif">
