@@ -13,10 +13,32 @@
 
 <!-- > I'm testing my profile page right now, WIP! -->
 
-<!-- I greatly appreciate your contributions to my repositories: [explore](?tab=repositories), create GitHub Issues, and submit Pull Requests! 😉 -->
-I greatly appreciate every contribution to my repositories: [explore](https://github.com/npanuhin?tab=repositories)![](src/icons/Repository.svg), create GitHub Issues![](src/icons/IssueOpened.svg), and submit Pull Requests![](src/icons/PullRequestOpened.svg)! 😉
+I greatly appreciate every contribution to my repositories: [explore](?tab=repositories)![](src/icons/github/Repository.svg), create GitHub Issues![](src/icons/github/IssueOpened.svg), and submit Pull Requests![](src/icons/github/PullRequestOpened.svg)! 😉
 
-If my repository is _archived_![](src/icons/Archive.svg), then I no longer maintain it. But you can still submit an issue [here](https://github.com/npanuhin/npanuhin/issues/new?template=questions-regarding-the-archived-repository.md) or [contact me directly](mailto:github@npanuhin.me?subject=Questions%20regarding%20the%20archived%20repository:%20<repository%20name%20here>) to ask a question.
+If my repository is _archived_![](src/icons/github/Archive.svg), then I no longer maintain it. But you can still submit an issue [here](https://github.com/npanuhin/npanuhin/issues/new?template=questions-regarding-the-archived-repository.md) or [contact me directly](mailto:github@npanuhin.me?subject=Questions%20regarding%20the%20archived%20repository:%20<repository%20name%20here>) to ask a question.
+
+
+<!-- <details><summary><h3>Repository listing</h3></summary> -->
+
+<!-- **University courses:**
+<br>&nbsp;&nbsp;&nbsp;&nbsp;[<img src="src/icons/C++.svg" width="12">](ITMO-CPP-lfru-multitype)   [ITMO-CPP-lfru-multitype](ITMO-CPP-lfru-multitype)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;[<img src="src/icons/C++.svg" width="12">](ITMO-CPP-trees-scapegoat)   [ITMO-CPP-trees-scapegoat](ITMO-CPP-trees-scapegoat)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;[<img src="src/icons/C++.svg" width="12">](ITMO-CPP-ouch-enter-order)   [ITMO-CPP-ouch-enter-order](ITMO-CPP-ouch-enter-order)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;[<img src="src/icons/C++.svg" width="12">](ITMO-CPP-calc-number-system)   [ITMO-CPP-calc-number-system](ITMO-CPP-calc-number-system)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;[<img src="src/icons/Binary-tree.svg" width="12">](ITMO-Algo)   [ITMO-Algo](ITMO-Algo)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;[<img src="src/icons/Binary2.svg" width="12">](ITMO-DM)   [ITMO-DM](ITMO-DM)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;[<img src="src/icons/Processor.svg" width="12">](ITMO-Spectre)   [ITMO-Spectre](ITMO-Spectre)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;[<img src="src/icons/Processor.svg" width="12">](ITMO-PNM-autocontrast)   [ITMO-PNM-autocontrast](ITMO-PNM-autocontrast)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;[<img src="src/icons/Processor.svg" width="12">](ITMO-Elf-disassembler)   [ITMO-Elf-disassembler](ITMO-Elf-disassembler)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;[<img src="src/icons/Processor.svg" width="12">](ITMO-Verilog)   [ITMO-Verilog](ITMO-Verilog)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;[<img src="src/icons/Clojure.svg" width="12">](ITMO-paradigms)   [ITMO-paradigms](ITMO-paradigms)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<a href="ITMO-Java"><picture><source media="(prefers-color-scheme: dark)" srcset="src/icons/Java.svg"><source media="(prefers-color-scheme: light)" srcset="src/icons/Java.light.svg"><img width="12" src="src/icons/Java.light.svg"></picture></a>   [ITMO-Java](ITMO-Java)
+
+**[School projects:](school)**
+<br>&nbsp;&nbsp;&nbsp;&nbsp;[<img src="src/icons/NetSchool-PTHS.png" width="12">](NetSchool-PTHS)   [NetSchool-PTHS](NetSchool-PTHS) — Website and main repo
+<br>&nbsp;&nbsp;&nbsp;&nbsp;[<img src="src/icons/NetSchool.jpg" width="12">](NetSchool-parser)   [NetSchool-parser](NetSchool-parser) — Data-collection tool/parser
+ -->
+<!-- </details> -->
 
 <br>
 
