@@ -54,9 +54,6 @@ If my repository is _archived_![](src/icons/github/Archive.svg), then I no longe
 
 [<img src="https://raw.githubusercontent.com/npanuhin/npanuhin/language-bar/bar.svg" width="100%">](https://github.com/npanuhin/GitHub-Language-Bar)<!-- Langbar?hide=Jupyter Notebook,npanuhin/Fourier:JavaScript&replace=Hack->PHP -->
 
-<!-- Activity graph -->
-<!-- ![](https://raw.githubusercontent.com/npanuhin/npanuhin/activity-graph/activity-graph.svg) -->
-
 
 <!-- <details>
 <summary>GitHub activity</summary>
