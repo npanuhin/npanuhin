@@ -17,10 +17,16 @@ I greatly appreciate every contribution to my repositories: [explore](?tab=repos
 
 If my repository is _archived_![](src/icons/github/Archive.svg), then I no longer maintain it. But you can still submit an issue [here](https://github.com/npanuhin/npanuhin/issues/new?template=questions-regarding-the-archived-repository.md) or [contact me directly](mailto:github@npanuhin.me?subject=Questions%20regarding%20the%20archived%20repository:%20<repository%20name%20here>) to ask a question.
 
+<!-- 
+<details><summary><h3>Repository listing</h3></summary>
 
-<!-- <details><summary><h3>Repository listing</h3></summary> -->
+**Miscellaneous:**
+<br>&nbsp;&nbsp;&nbsp;&nbsp;[]()   [BIOCAD](BIOCAD-BWA) and [BIOCAD](BIOCAD-BWA) — High school graduation project
 
-<!-- **University courses:**
+**University courses:**
+<br>&nbsp;&nbsp;&nbsp;&nbsp;[<img src="src/icons/C++.svg" width="12">](ITMO-CPP-combinations)   [ITMO-CPP-combinations](ITMO-CPP-combinations)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;[<img src="src/icons/C++.svg" width="12">](ITMO-CPP-int128)   [ITMO-CPP-int128](ITMO-CPP-int128)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;[<img src="src/icons/C++.svg" width="12">](ITMO-CPP-8-puzzle)   [ITMO-CPP-8-puzzle](ITMO-CPP-8-puzzle)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;[<img src="src/icons/C++.svg" width="12">](ITMO-CPP-lfru-multitype)   [ITMO-CPP-lfru-multitype](ITMO-CPP-lfru-multitype)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;[<img src="src/icons/C++.svg" width="12">](ITMO-CPP-trees-scapegoat)   [ITMO-CPP-trees-scapegoat](ITMO-CPP-trees-scapegoat)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;[<img src="src/icons/C++.svg" width="12">](ITMO-CPP-ouch-enter-order)   [ITMO-CPP-ouch-enter-order](ITMO-CPP-ouch-enter-order)
@@ -37,9 +43,13 @@ If my repository is _archived_![](src/icons/github/Archive.svg), then I no longe
 **[School projects:](school)**
 <br>&nbsp;&nbsp;&nbsp;&nbsp;[<img src="src/icons/NetSchool-PTHS.png" width="12">](NetSchool-PTHS)   [NetSchool-PTHS](NetSchool-PTHS) — Website and main repo
 <br>&nbsp;&nbsp;&nbsp;&nbsp;[<img src="src/icons/NetSchool.jpg" width="12">](NetSchool-parser)   [NetSchool-parser](NetSchool-parser) — Data-collection tool/parser
- -->
-<!-- </details> -->
 
+> **Note**  
+> This is not a comprehensive listing of my projects — it showcases only the most notable ones.  
+> I have numerous other repositories that serve different purposes, including data storage. While some of them are private, there are also several public ones which you can find [here](?tab=repositories&sort=name)
+
+</details>
+ -->
 <br>
 
 [<img src="https://raw.githubusercontent.com/npanuhin/npanuhin/language-bar/bar.svg" width="100%">](https://github.com/npanuhin/GitHub-Language-Bar)<!-- Langbar?hide=Jupyter Notebook,npanuhin/Fourier:JavaScript&replace=Hack->PHP -->
