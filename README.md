@@ -13,7 +13,7 @@
 
 <!-- > I'm testing my profile page right now, WIP! -->
 
-I greatly appreciate every contribution to my repositories: [explore](?tab=repositories)![](src/icons/github/Repository.svg), create GitHub Issues![](src/icons/github/IssueOpened.svg), and submit Pull Requests![](src/icons/github/PullRequestOpened.svg)! 😉
+I greatly appreciate every contribution to my repositories: [explore](https://github.com/npanuhin?tab=repositories)![](src/icons/github/Repository.svg), create GitHub Issues![](src/icons/github/IssueOpened.svg), and submit Pull Requests![](src/icons/github/PullRequestOpened.svg)! 😉
 
 If my repository is _archived_![](src/icons/github/Archive.svg), then I no longer maintain it. But you can still submit an issue [here](https://github.com/npanuhin/npanuhin/issues/new?template=questions-regarding-the-archived-repository.md) or [contact me directly](mailto:github@npanuhin.me?subject=Questions%20regarding%20the%20archived%20repository:%20<repository%20name%20here>) to ask a question.
 
@@ -46,7 +46,7 @@ If my repository is _archived_![](src/icons/github/Archive.svg), then I no longe
 
 > **Note**  
 > This is not a comprehensive listing of my projects — it showcases only the most notable ones.  
-> I have numerous other repositories that serve different purposes, including data storage. While some of them are private, there are also several public ones which you can find [here](?tab=repositories&sort=name)
+> I have numerous other repositories that serve different purposes, including data storage. While some of them are private, there are also several public ones which you can find [here](https://github.com/npanuhin?tab=repositories&sort=name)
 
 </details>
  -->
