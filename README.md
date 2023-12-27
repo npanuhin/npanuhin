@@ -22,10 +22,16 @@ If my repository is _archived_![](src/icons/github/Archive.svg), then I no longe
 <br>    [Advent-of-Code](Advent-of-Code) — My elegant solutions to the captivating Advent of Code 🎄 And some quirky surprises 😉
 <br>    [Bing-Wallpaper-Archive](Bing-Wallpaper-Archive) — Comprehensive collection of stunning daily Bing wallpapers 🖼️ (To be improved soon)
 
-<details><summary><h3>Repository listing</h3></summary>
+<details><summary><h3>Repository overview</h3></summary>
 
 **Ongoing projects:**
 <br>    [Artwork](Artwork) — My journey in 3D graphics, SVG drawing, and all things creative 🎨 (No recent updates)
+
+
+**Archived projects:**
+<br>    [QuickPuTTY](QuickPuTTY) — Sublime Text plugin for PuTTY
+<br>    [Among-Us](Among-Us) — Among Us auto player
+
 
 **ITMO University courses:**
 
@@ -59,10 +65,6 @@ If my repository is _archived_![](src/icons/github/Archive.svg), then I no longe
 <br>    [<img src="src/icons/repos/NetSchool.jpg" width="12">](NetSchool-parser)   [NetSchool-parser](NetSchool-parser) — Data-collection tool/parser + [NetSchool-bot](NetSchool-bot) — Long deprecated VK-bot
 <br>    [<img src="src/icons/repos/BIOCAD.svg" width="12">](BIOCAD)   [BIOCAD](BIOCAD) + [BIOCAD-BWA](BIOCAD-BWA) — High school graduation project
 
-
-**Archived projects:**
-<br>    [<img src="" width="12">](QuickPuTTY)   [QuickPuTTY](QuickPuTTY) — Sublime Text plugin for PuTTY
-<br>    [<img src="" width="12">](Among-Us)   [Among-Us](Among-Us) — Among Us auto player
 
 > This is not a comprehensive listing of my projects — it showcases only the most notable ones.  
 > I have numerous other repositories that serve different purposes, including data storage. While some of them are private, there are also several public ones which you can find [here](https://github.com/npanuhin?tab=repositories&sort=name)
