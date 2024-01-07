@@ -83,7 +83,7 @@ If my repository is _archived_![](src/icons/github/Archive.svg), then I no longe
   [![](https://img.shields.io/static/v1?style=for-the-badge&label=&message=VK&color=0077FF&logo=vk&logoColor=white)](https://vk.com/npanuhin)
   [![](https://img.shields.io/static/v1?style=for-the-badge&label=&message=Discord&color=5865F2&logo=discord&logoColor=white)](https://discord.com/users/532989319481393183)
   [![](https://img.shields.io/static/v1?style=for-the-badge&label=&message=LinkedIn&color=0A66C2&logo=LinkedIn&logoColor=white)](https://linkedin.com/in/npanuhin)
-  [![](https://img.shields.io/static/v1?style=for-the-badge&label=&message=Email［OFFICIAL］&color=C71610&logo=Mail.Ru&logoColor=white)](mailto:github@npanuhin.me)
+  [![](https://img.shields.io/static/v1?style=for-the-badge&label=&message=Email［OFFICIAL］&color=C71610&logo=Mail.Ru&logoColor=white)](mailto:inbox@npanuhin.me)
 
 </div>
 
