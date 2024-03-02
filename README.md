@@ -22,7 +22,7 @@ If my repository is _archived_![](src/icons/github/Archive.svg), then I no longe
 <br>    [Advent-of-Code](https://github.com/npanuhin/Advent-of-Code) — My elegant solutions to the captivating Advent of Code 🎄<!--  And some quirky surprises 😉 -->
 <br>    [Bing-Wallpaper-Archive](https://github.com/npanuhin/Bing-Wallpaper-Archive) — Comprehensive collection of stunning Bing daily wallpapers 🖼️ (WIP: v2)
 
-<details><summary><h3>Repository overview</h3></summary>
+<details><summary><b>Repository overview</b></summary>
 
 **Ongoing projects:**
 <br>    [Artwork](https://github.com/npanuhin/Artwork) — My journey in 3D graphics, SVG drawing, and all things creative 🎨 (No recent updates)
@@ -37,8 +37,8 @@ If my repository is _archived_![](src/icons/github/Archive.svg), then I no longe
 
 <details><summary>📢 Please read if you are a student of ITMO University</summary>
 
-> Use materials from educational repositories with caution!  
-> Task statements are subject to change in the future. Understand the solution thoroughly before copying it.  
+> Use materials from educational repositories with caution!<br>
+> Task statements are subject to change in the future. Understand the solution thoroughly before copying it.<br>
 > Remember, you may be asked to explain your solution and thought process for the homework assignments, as well as respond to questions about the material during the exam.
 
 </details>
@@ -66,7 +66,7 @@ If my repository is _archived_![](src/icons/github/Archive.svg), then I no longe
 <br>    [<img src="src/icons/repos/BIOCAD.svg" width="12">](https://github.com/npanuhin/BIOCAD)   [BIOCAD](https://github.com/npanuhin/BIOCAD) + [BIOCAD-BWA](https://github.com/npanuhin/BIOCAD-BWA) — High school graduation project
 
 
-> This is not a comprehensive listing of my projects — it showcases only the most notable ones.  
+> This is not a comprehensive listing of my projects — it showcases only the most notable ones.<br>
 > I have numerous other repositories that serve different purposes, including data storage. While most of them are private, there are also several public ones which you can find [here](https://github.com/npanuhin?tab=repositories&sort=name)
 
 
