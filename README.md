@@ -34,7 +34,6 @@ If my repository is _archived_![](src/icons/github/Archive.svg), then I no longe
 
 
 **ITMO University courses:**
-
 <details><summary>📢 Please read if you are a student of ITMO University</summary>
 
 > Use materials from educational repositories with caution!<br>
@@ -64,6 +63,9 @@ If my repository is _archived_![](src/icons/github/Archive.svg), then I no longe
 <br>    [<img src="src/icons/repos/NetSchool-PTHS.png" width="12">](https://github.com/npanuhin/NetSchool-PTHS)   [NetSchool-PTHS](https://github.com/npanuhin/NetSchool-PTHS) — Website and main repo of NetSchool PTHS
 <br>    [<img src="src/icons/repos/NetSchool.jpg" width="12">](https://github.com/npanuhin/NetSchool-parser)   [NetSchool-parser](https://github.com/npanuhin/NetSchool-parser) — Data-collection tool/parser<!--  + [NetSchool-bot](https://github.com/npanuhin/NetSchool-bot) — Long deprecated VK-bot -->
 <br>    [<img src="src/icons/repos/BIOCAD.svg" width="12">](https://github.com/npanuhin/BIOCAD)   [BIOCAD](https://github.com/npanuhin/BIOCAD) + [BIOCAD-BWA](https://github.com/npanuhin/BIOCAD-BWA) — High school graduation project
+
+**Educational projects:**<br>
+Projects with the name `edu-...` are created for one-time use, for example, to submit an assignment or demonstrate some small project (e.g. for an interview). They will not be updated or maintained and will be archived shortly after creation.
 
 
 > This is not a comprehensive listing of my projects — it showcases only the most notable ones.<br>
