@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="846.4" height="30"><style>/* .bar_piece {
+	transition: 0.1s transform ease-in-out;
+	transform-origin: center center;
+	transform-box: fill-box;
+}
+
+.bar_piece:hover {
+	transform: scaleY(1.1);
+}
+ */
+
+text {
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+	font-size: 13px;
+}</style><mask id="bar_border_radius"><rect width="846.4" height="8" fill="#fff" rx="4.0" /></mask><g mask="url(#bar_border_radius)" transform="translate(0,0)"><rect class="bar_piece" x="0.0" width="286.131" height="8" fill="#3572A5" /><rect class="bar_piece" x="286.131" width="280.618" height="8" fill="#f34b7d" /><rect class="bar_piece" x="566.749" width="112.088" height="8" fill="#e34c26" /><rect class="bar_piece" x="678.837" width="53.813" height="8" fill="#b07219" /><rect class="bar_piece" x="732.65" width="40.66" height="8" fill="#4F5D95" /><rect class="bar_piece" x="773.31" width="23.578" height="8" fill="#f1e05a" /><rect class="bar_piece" x="796.888" width="13.627" height="8" fill="#563d7c" /><rect class="bar_piece" x="810.515" width="9.913" height="8" fill="#A97BFF" /><rect class="bar_piece" x="820.428" width="9.418" height="8" fill="#c6538c" /><rect class="bar_piece" x="829.846" width="4.466" height="8" fill="#db5855" /><rect class="bar_piece" x="834.312" width="3.946" height="8" fill="#DA3434" /><rect class="bar_piece" x="838.258" width="2.46" height="8" fill="#74283c" /><rect class="bar_piece" x="840.718" width="1.896" height="8" fill="#C1F12E" /><rect class="bar_piece" x="842.614" width="1.676" height="8" fill="#DAE1C2" /><rect class="bar_piece" x="844.29" width="1.155" height="8" fill="#89e051" /><rect class="bar_piece" x="845.445" width="0.496" height="8" fill="#555555" /><rect class="bar_piece" x="845.941" width="0.212" height="8" fill="#427819" /><rect class="bar_piece" x="846.153" width="0.169" height="8" fill="#5e5086" /><rect class="bar_piece" x="846.322" width="0.078" height="8" fill="#6E4C13" /></g><g transform="translate(0,24)"><text x="123.066" fill="rgb(139, 148, 158)">Python</text><text x="413.44" fill="rgb(139, 148, 158)">C++</text><text x="605.793" fill="rgb(139, 148, 158)">HTML</text><text x="693.744" fill="rgb(139, 148, 158)">Java</text><text x="740.98" fill="rgb(139, 148, 158)">PHP</text></g></svg>
