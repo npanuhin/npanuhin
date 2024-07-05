@@ -20,7 +20,7 @@ If my repository is _archived_![](src/icons/github/Archive.svg), then I no longe
 
 **Active projects:**
 <br>    [Advent-of-Code](https://github.com/npanuhin/Advent-of-Code) — My elegant solutions to the captivating Advent of Code 🎄<!--  And some quirky surprises 😉 -->
-<br>    [Bing-Wallpaper-Archive](https://github.com/npanuhin/Bing-Wallpaper-Archive) — Comprehensive collection of stunning Bing daily wallpapers 🖼️ (WIP: v2)
+<br>    [Bing-Wallpaper-Archive](https://github.com/npanuhin/Bing-Wallpaper-Archive) — Comprehensive collection of stunning Bing daily wallpapers 🖼️
 
 <details><summary><b>Repository overview</b></summary>
 
