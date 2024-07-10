@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="16px" version="1.1" viewBox="0 0 16 16" width="16px">
+  <defs/>
+  <g id="xb53220_r181_g50_b32_a1.0">
+    <path d="M 2,13 1,13 1,7 2,7 2,6 3,6 3,5 4,5 4,7 3,7 3,9 4,9 4,8 5,8 5,7 6,7 6,10 7,10 7,11 9,11 9,10 10,10 10,7 11,7 11,8 12,8 12,9 13,9 13,7 12,7 12,5 13,5 13,6 14,6 14,7 15,7 15,13 14,13 14,14 13,14 13,13 12,13 12,11 12,10 11,10 11,11 11,13 12,13 12,15 13,15 13,16 11,16 11,15 9,15 9,16 7,16 7,15 5,15 5,16 3,16 3,15 4,15 4,13 5,13 5,10 4,10 4,13 3,13 3,14 2,14 z" fill="#b53220" fill-opacity="1.0" id="xb53220_r181_g50_b32_a1.0_shape1"/>
+    <path d="M 5,4 5,5 4,5 4,4 z" fill="#b53220" fill-opacity="1.0" id="xb53220_r181_g50_b32_a1.0_shape2"/>
+    <path d="M 11,5 11,4 12,4 12,5 z" fill="#b53220" fill-opacity="1.0" id="xb53220_r181_g50_b32_a1.0_shape3"/>
+  </g>
+  <g id="xfefefe_r254_g254_b254_a1.0">
+    <path d="M 12,6 12,7 13,7 13,8 13,9 12,9 12,8 11,8 11,7 10,7 10,6 9,6 8,6 6,6 6,7 5,7 5,8 4,8 4,9 3,9 3,8 3,7 4,7 4,6 4,5 5,5 5,4 6,4 6,5 7,5 9,5 10,5 10,4 11,4 11,5 12,5 z" fill="#fefefe" fill-opacity="1.0" id="xfefefe_r254_g254_b254_a1.0_shape1"/>
+    <path d="M 10,10 9,10 9,11 7,11 7,10 6,10 6,7 10,7 10,9 z" fill="#fefefe" fill-opacity="1.0" id="xfefefe_r254_g254_b254_a1.0_shape2"/>
+    <path d="M 4,2 4,1 5,1 5,2 z" fill="#fefefe" fill-opacity="1.0" id="xfefefe_r254_g254_b254_a1.0_shape3"/>
+    <path d="M 6,1 7,1 7,2 6,2 z" fill="#fefefe" fill-opacity="1.0" id="xfefefe_r254_g254_b254_a1.0_shape4"/>
+    <path d="M 9,2 9,1 10,1 10,2 z" fill="#fefefe" fill-opacity="1.0" id="xfefefe_r254_g254_b254_a1.0_shape5"/>
+    <path d="M 12,1 12,2 11,2 11,1 z" fill="#fefefe" fill-opacity="1.0" id="xfefefe_r254_g254_b254_a1.0_shape6"/>
+  </g>
+  <g id="xeb9f23_r235_g159_b35_a1.0">
+    <path d="M 5,2 5,0 11,0 11,2 12,2 12,4 10,4 10,1 9,1 9,4 10,4 10,5 8,5 6,5 6,4 7,4 7,1 6,1 6,4 4,4 4,2 z" fill="#eb9f23" fill-opacity="1.0" id="xeb9f23_r235_g159_b35_a1.0_shape1"/>
+    <path d="M 0,8 1,8 1,10 1,11 0,11 0,10 z" fill="#eb9f23" fill-opacity="1.0" id="xeb9f23_r235_g159_b35_a1.0_shape2"/>
+    <path d="M 16,11 15,11 15,8 16,8 z" fill="#eb9f23" fill-opacity="1.0" id="xeb9f23_r235_g159_b35_a1.0_shape3"/>
+    <path d="M 5,16 5,15 6,15 7,15 7,16 6,16 z" fill="#eb9f23" fill-opacity="1.0" id="xeb9f23_r235_g159_b35_a1.0_shape4"/>
+    <path d="M 11,15 11,16 10,16 9,16 9,15 10,15 z" fill="#eb9f23" fill-opacity="1.0" id="xeb9f23_r235_g159_b35_a1.0_shape5"/>
+  </g>
+  <g id="x000000_r0_g0_b0_a1.0">
+    <path d="M 10,6 10,7 7,7 6,7 6,6 7,6 z" fill="#000000" fill-opacity="1.0" id="x000000_r0_g0_b0_a1.0_shape1"/>
+    <path d="M 7,2 7,4 6,4 6,2 z" fill="#000000" fill-opacity="1.0" id="x000000_r0_g0_b0_a1.0_shape2"/>
+    <path d="M 9,2 10,2 10,3 10,4 9,4 9,3 z" fill="#000000" fill-opacity="1.0" id="x000000_r0_g0_b0_a1.0_shape3"/>
+  </g>
+</svg>
