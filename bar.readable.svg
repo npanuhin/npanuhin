@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="846.4" height="30">
+  <style>/* .bar_piece {
+	transition: 0.1s transform ease-in-out;
+	transform-origin: center center;
+	transform-box: fill-box;
+}
+
+.bar_piece:hover {
+	transform: scaleY(1.1);
+}
+ */
+
+text {
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+	font-size: 13px;
+}</style>
+  <mask id="bar_border_radius">
+    <rect width="846.4" height="8" fill="#fff" rx="4.0" />
+  </mask>
+  <g mask="url(#bar_border_radius)" transform="translate(0,0)">
+    <rect class="bar_piece" x="0.0" width="285.501" height="8" fill="#3572A5" />
+    <rect class="bar_piece" x="285.501" width="281.65" height="8" fill="#f34b7d" />
+    <rect class="bar_piece" x="567.151" width="111.827" height="8" fill="#e34c26" />
+    <rect class="bar_piece" x="678.978" width="53.687" height="8" fill="#b07219" />
+    <rect class="bar_piece" x="732.665" width="40.565" height="8" fill="#4F5D95" />
+    <rect class="bar_piece" x="773.23" width="23.523" height="8" fill="#f1e05a" />
+    <rect class="bar_piece" x="796.753" width="13.596" height="8" fill="#563d7c" />
+    <rect class="bar_piece" x="810.349" width="9.889" height="8" fill="#A97BFF" />
+    <rect class="bar_piece" x="820.238" width="9.396" height="8" fill="#c6538c" />
+    <rect class="bar_piece" x="829.634" width="4.455" height="8" fill="#db5855" />
+    <rect class="bar_piece" x="834.089" width="3.938" height="8" fill="#DA3434" />
+    <rect class="bar_piece" x="838.027" width="2.454" height="8" fill="#74283c" />
+    <rect class="bar_piece" x="840.481" width="1.891" height="8" fill="#C1F12E" />
+    <rect class="bar_piece" x="842.372" width="1.673" height="8" fill="#DAE1C2" />
+    <rect class="bar_piece" x="844.045" width="1.403" height="8" fill="#89e051" />
+    <rect class="bar_piece" x="845.448" width="0.494" height="8" fill="#555555" />
+    <rect class="bar_piece" x="845.942" width="0.212" height="8" fill="#427819" />
+    <rect class="bar_piece" x="846.154" width="0.169" height="8" fill="#5e5086" />
+    <rect class="bar_piece" x="846.323" width="0.077" height="8" fill="#6E4C13" />
+  </g>
+  <g transform="translate(0,24)">
+    <text x="122.75" fill="rgb(139, 148, 158)">Python</text>
+    <text x="413.326" fill="rgb(139, 148, 158)">C++</text>
+    <text x="606.064" fill="rgb(139, 148, 158)">HTML</text>
+    <text x="693.821" fill="rgb(139, 148, 158)">Java</text>
+    <text x="740.948" fill="rgb(139, 148, 158)">PHP</text>
+  </g>
+</svg>
