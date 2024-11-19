@@ -1,0 +1,12 @@
+{
+	"headless": false,
+
+	"username": "npanuhin",
+	"password": "D89AyQ5j",
+
+	"driver_path": [
+		"geckodriver",
+		"src/geckodriver",
+		"C:\\Program Files\\Mozilla Firefox\\geckodriver.exe",
+	]
+}
