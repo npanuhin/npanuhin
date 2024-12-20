@@ -24,66 +24,66 @@ If my repository is _archived_![](src/icons/github/Archive.svg), then I no longe
 
 <details><summary><b>Repository overview</b></summary>
 
-<br>
+  <br>
 
-**Ongoing projects:**
-<br>    [Artwork](https://github.com/npanuhin/Artwork) — My journey in 3D graphics, SVG drawing, and all things creative 🎨 (No recent updates)
-
-
-**Archived projects:**
-<br>    [QuickPuTTY](https://github.com/npanuhin/QuickPuTTY) — Sublime Text plugin for PuTTY
-<br>    [Among-Us](https://github.com/npanuhin/Among-Us) — Among Us auto player
+  **Ongoing projects:**
+  <br>    [Artwork](https://github.com/npanuhin/Artwork) — My journey in 3D graphics, SVG drawing, and all things creative 🎨 (No recent updates)
 
 
-<!-- **Constructor University courses:**
-<details><summary>📢 Please read if you are a student of Constructor University</summary>
-
-> Use materials from educational repositories with caution!<br>
-> Task statements are subject to change in the future. Understand the solution thoroughly before copying it.<br>
-> Remember, you may be asked to explain your solution and thought process for the homework assignments, as well as respond to questions about the material during the exam.
-
-</details> -->
-
-<!-- TODO -->
-
-**ITMO University courses:**
-<details><summary>📢 Please read if you are a student of ITMO University</summary>
-
-> Use materials from educational repositories with caution!<br>
-> Task statements are subject to change in the future. Understand the solution thoroughly before copying it.<br>
-> Remember, you may be asked to explain your solution and thought process for the homework assignments, as well as respond to questions about the material during the exam.
-
-</details>
-
-    [<img src="src/icons/repos/Binary-tree.svg" width="12">](https://github.com/npanuhin/ITMO-Algo)   [ITMO-Algo](https://github.com/npanuhin/ITMO-Algo)<!-- 
-<br>    [<img src="src/icons/repos/Binary.svg" width="12">](https://github.com/npanuhin/ITMO-DM)   [ITMO-DM](https://github.com/npanuhin/ITMO-DM) -->
-<br>    <picture><source media="(prefers-color-scheme: dark)" srcset="src/icons/repos/Java.svg"><source media="(prefers-color-scheme: light)" srcset="src/icons/repos/Java.light.svg">[<img src="src/icons/repos/Java.light.svg" width="12">](https://github.com/npanuhin/ITMO-Java)</picture>   [ITMO-Java](https://github.com/npanuhin/ITMO-Java)
-<br>    [<img src="src/icons/repos/Clojure.svg" width="12">](https://github.com/npanuhin/ITMO-paradigms)   [ITMO-paradigms](https://github.com/npanuhin/ITMO-paradigms)
-<br>    [<img src="src/icons/repos/Processor.svg" width="12">](https://github.com/npanuhin/ITMO-Verilog)   [ITMO-Verilog](https://github.com/npanuhin/ITMO-Verilog)
-<br>    [<img src="src/icons/repos/Processor.svg" width="12">](https://github.com/npanuhin/ITMO-Spectre)   [ITMO-Spectre](https://github.com/npanuhin/ITMO-Spectre)
-<br>    [<img src="src/icons/repos/Processor.svg" width="12">](https://github.com/npanuhin/ITMO-Elf-disassembler)   [ITMO-Elf-disassembler](https://github.com/npanuhin/ITMO-Elf-disassembler)
-<br>    [<img src="src/icons/repos/Processor.svg" width="12">](https://github.com/npanuhin/ITMO-PNM-autocontrast)   [ITMO-PNM-autocontrast](https://github.com/npanuhin/ITMO-PNM-autocontrast)
-<br>    [<img src="src/icons/repos/C++.svg" width="12">](https://github.com/npanuhin/ITMO-CPP-int128)   [ITMO-CPP-int128](https://github.com/npanuhin/ITMO-CPP-int128)
-<br>    [<img src="src/icons/repos/C++.svg" width="12">](https://github.com/npanuhin/ITMO-CPP-8-puzzle)   [ITMO-CPP-8-puzzle](https://github.com/npanuhin/ITMO-CPP-8-puzzle)
-<br>    [<img src="src/icons/repos/C++.svg" width="12">](https://github.com/npanuhin/ITMO-CPP-combinations)   [ITMO-CPP-combinations](https://github.com/npanuhin/ITMO-CPP-combinations)
-<br>    [<img src="src/icons/repos/C++.svg" width="12">](https://github.com/npanuhin/ITMO-CPP-lfru-multitype)   [ITMO-CPP-lfru-multitype](https://github.com/npanuhin/ITMO-CPP-lfru-multitype)
-<br>    [<img src="src/icons/repos/C++.svg" width="12">](https://github.com/npanuhin/ITMO-CPP-trees-scapegoat)   [ITMO-CPP-trees-scapegoat](https://github.com/npanuhin/ITMO-CPP-trees-scapegoat)
-<br>    [<img src="src/icons/repos/C++.svg" width="12">](https://github.com/npanuhin/ITMO-CPP-ouch-enter-order)   [ITMO-CPP-ouch-enter-order](https://github.com/npanuhin/ITMO-CPP-ouch-enter-order)
-<br>    [<img src="src/icons/repos/C++.svg" width="12">](https://github.com/npanuhin/ITMO-CPP-calc-number-system)   [ITMO-CPP-calc-number-system](https://github.com/npanuhin/ITMO-CPP-calc-number-system)
+  **Archived projects:**
+  <br>    [QuickPuTTY](https://github.com/npanuhin/QuickPuTTY) — Sublime Text plugin for PuTTY
+  <br>    [Among-Us](https://github.com/npanuhin/Among-Us) — Among Us auto player
 
 
-**[School projects:](https://github.com/npanuhin/school)**
-<br>    [<img src="src/icons/repos/NetSchool-PTHS.png" width="12">](https://github.com/npanuhin/NetSchool-PTHS)   [NetSchool-PTHS](https://github.com/npanuhin/NetSchool-PTHS) — Website and main repo of NetSchool PTHS
-<br>    [<img src="src/icons/repos/NetSchool.jpg" width="12">](https://github.com/npanuhin/NetSchool-parser)   [NetSchool-parser](https://github.com/npanuhin/NetSchool-parser) — Data-collection tool/parser<!--  + [NetSchool-bot](https://github.com/npanuhin/NetSchool-bot) — Long deprecated VK-bot -->
-<br>    [<img src="src/icons/repos/BIOCAD.svg" width="12">](https://github.com/npanuhin/BIOCAD)   [BIOCAD](https://github.com/npanuhin/BIOCAD) + [BIOCAD-BWA](https://github.com/npanuhin/BIOCAD-BWA) — High school graduation project
+  <!-- **Constructor University courses:**
+  <details><summary>📢 Please read if you are a student of Constructor University</summary>
+
+  > Use materials from educational repositories with caution!<br>
+  > Task statements are subject to change in the future. Understand the solution thoroughly before copying it.<br>
+  > Remember, you may be asked to explain your solution and thought process for the homework assignments, as well as respond to questions about the material during the exam.
+
+  </details> -->
+
+  <!-- TODO -->
+
+  **ITMO University courses:**
+  <details><summary>📢 Please read if you are a student of ITMO University</summary>
+
+  > Use materials from educational repositories with caution!<br>
+  > Task statements are subject to change in the future. Understand the solution thoroughly before copying it.<br>
+  > Remember, you may be asked to explain your solution and thought process for the homework assignments, as well as respond to questions about the material during the exam.
+
+  </details>
+
+      [<img src="src/icons/repos/Binary-tree.svg" width="12">](https://github.com/npanuhin/ITMO-Algo)   [ITMO-Algo](https://github.com/npanuhin/ITMO-Algo)<!-- 
+  <br>    [<img src="src/icons/repos/Binary.svg" width="12">](https://github.com/npanuhin/ITMO-DM)   [ITMO-DM](https://github.com/npanuhin/ITMO-DM) -->
+  <br>    <picture><source media="(prefers-color-scheme: dark)" srcset="src/icons/repos/Java.svg"><source media="(prefers-color-scheme: light)" srcset="src/icons/repos/Java.light.svg">[<img src="src/icons/repos/Java.light.svg" width="12">](https://github.com/npanuhin/ITMO-Java)</picture>   [ITMO-Java](https://github.com/npanuhin/ITMO-Java)
+  <br>    [<img src="src/icons/repos/Clojure.svg" width="12">](https://github.com/npanuhin/ITMO-paradigms)   [ITMO-paradigms](https://github.com/npanuhin/ITMO-paradigms)
+  <br>    [<img src="src/icons/repos/Processor.svg" width="12">](https://github.com/npanuhin/ITMO-Verilog)   [ITMO-Verilog](https://github.com/npanuhin/ITMO-Verilog)
+  <br>    [<img src="src/icons/repos/Processor.svg" width="12">](https://github.com/npanuhin/ITMO-Spectre)   [ITMO-Spectre](https://github.com/npanuhin/ITMO-Spectre)
+  <br>    [<img src="src/icons/repos/Processor.svg" width="12">](https://github.com/npanuhin/ITMO-Elf-disassembler)   [ITMO-Elf-disassembler](https://github.com/npanuhin/ITMO-Elf-disassembler)
+  <br>    [<img src="src/icons/repos/Processor.svg" width="12">](https://github.com/npanuhin/ITMO-PNM-autocontrast)   [ITMO-PNM-autocontrast](https://github.com/npanuhin/ITMO-PNM-autocontrast)
+  <br>    [<img src="src/icons/repos/C++.svg" width="12">](https://github.com/npanuhin/ITMO-CPP-int128)   [ITMO-CPP-int128](https://github.com/npanuhin/ITMO-CPP-int128)
+  <br>    [<img src="src/icons/repos/C++.svg" width="12">](https://github.com/npanuhin/ITMO-CPP-8-puzzle)   [ITMO-CPP-8-puzzle](https://github.com/npanuhin/ITMO-CPP-8-puzzle)
+  <br>    [<img src="src/icons/repos/C++.svg" width="12">](https://github.com/npanuhin/ITMO-CPP-combinations)   [ITMO-CPP-combinations](https://github.com/npanuhin/ITMO-CPP-combinations)
+  <br>    [<img src="src/icons/repos/C++.svg" width="12">](https://github.com/npanuhin/ITMO-CPP-lfru-multitype)   [ITMO-CPP-lfru-multitype](https://github.com/npanuhin/ITMO-CPP-lfru-multitype)
+  <br>    [<img src="src/icons/repos/C++.svg" width="12">](https://github.com/npanuhin/ITMO-CPP-trees-scapegoat)   [ITMO-CPP-trees-scapegoat](https://github.com/npanuhin/ITMO-CPP-trees-scapegoat)
+  <br>    [<img src="src/icons/repos/C++.svg" width="12">](https://github.com/npanuhin/ITMO-CPP-ouch-enter-order)   [ITMO-CPP-ouch-enter-order](https://github.com/npanuhin/ITMO-CPP-ouch-enter-order)
+  <br>    [<img src="src/icons/repos/C++.svg" width="12">](https://github.com/npanuhin/ITMO-CPP-calc-number-system)   [ITMO-CPP-calc-number-system](https://github.com/npanuhin/ITMO-CPP-calc-number-system)
 
 
-**Educational projects:**<br>
-Projects with the name `edu-...` are created for one-time use, for example, to submit an assignment or demonstrate some small project (e.g. for an interview). They will not be updated or maintained and will be archived shortly after creation.
+  **[School projects:](https://github.com/npanuhin/school)**
+  <br>    [<img src="src/icons/repos/NetSchool-PTHS.png" width="12">](https://github.com/npanuhin/NetSchool-PTHS)   [NetSchool-PTHS](https://github.com/npanuhin/NetSchool-PTHS) — Website and main repo of NetSchool PTHS
+  <br>    [<img src="src/icons/repos/NetSchool.jpg" width="12">](https://github.com/npanuhin/NetSchool-parser)   [NetSchool-parser](https://github.com/npanuhin/NetSchool-parser) — Data-collection tool/parser<!--  + [NetSchool-bot](https://github.com/npanuhin/NetSchool-bot) — Long deprecated VK-bot -->
+  <br>    [<img src="src/icons/repos/BIOCAD.svg" width="12">](https://github.com/npanuhin/BIOCAD)   [BIOCAD](https://github.com/npanuhin/BIOCAD) + [BIOCAD-BWA](https://github.com/npanuhin/BIOCAD-BWA) — High school graduation project
 
 
-> This is not a comprehensive listing of my projects — it showcases only the most notable ones.<br>
-> I have numerous other repositories that serve different purposes, including data storage. While most of them are private, there are also several public ones which you can find [here](https://github.com/npanuhin?tab=repositories&sort=name)
+  **Educational projects:**<br>
+  Projects with the name `edu-...` are created for one-time use, for example, to submit an assignment or demonstrate some small project (e.g. for an interview). They will not be updated or maintained and will be archived shortly after creation.
+
+
+  > This is not a comprehensive listing of my projects — it showcases only the most notable ones.<br>
+  > I have numerous other repositories that serve different purposes, including data storage. While most of them are private, there are also several public ones which you can find [here](https://github.com/npanuhin?tab=repositories&sort=name)
 
 </details>
 
