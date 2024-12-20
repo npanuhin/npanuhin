@@ -24,6 +24,8 @@ If my repository is _archived_![](src/icons/github/Archive.svg), then I no longe
 
 <details><summary><b>Repository overview</b></summary>
 
+<br>
+
 **Ongoing projects:**
 <br>    [Artwork](https://github.com/npanuhin/Artwork) — My journey in 3D graphics, SVG drawing, and all things creative 🎨 (No recent updates)
 
@@ -32,6 +34,17 @@ If my repository is _archived_![](src/icons/github/Archive.svg), then I no longe
 <br>    [QuickPuTTY](https://github.com/npanuhin/QuickPuTTY) — Sublime Text plugin for PuTTY
 <br>    [Among-Us](https://github.com/npanuhin/Among-Us) — Among Us auto player
 
+
+<!-- **Constructor University courses:**
+<details><summary>📢 Please read if you are a student of Constructor University</summary>
+
+> Use materials from educational repositories with caution!<br>
+> Task statements are subject to change in the future. Understand the solution thoroughly before copying it.<br>
+> Remember, you may be asked to explain your solution and thought process for the homework assignments, as well as respond to questions about the material during the exam.
+
+</details> -->
+
+<!-- TODO -->
 
 **ITMO University courses:**
 <details><summary>📢 Please read if you are a student of ITMO University</summary>
@@ -64,13 +77,13 @@ If my repository is _archived_![](src/icons/github/Archive.svg), then I no longe
 <br>    [<img src="src/icons/repos/NetSchool.jpg" width="12">](https://github.com/npanuhin/NetSchool-parser)   [NetSchool-parser](https://github.com/npanuhin/NetSchool-parser) — Data-collection tool/parser<!--  + [NetSchool-bot](https://github.com/npanuhin/NetSchool-bot) — Long deprecated VK-bot -->
 <br>    [<img src="src/icons/repos/BIOCAD.svg" width="12">](https://github.com/npanuhin/BIOCAD)   [BIOCAD](https://github.com/npanuhin/BIOCAD) + [BIOCAD-BWA](https://github.com/npanuhin/BIOCAD-BWA) — High school graduation project
 
+
 **Educational projects:**<br>
 Projects with the name `edu-...` are created for one-time use, for example, to submit an assignment or demonstrate some small project (e.g. for an interview). They will not be updated or maintained and will be archived shortly after creation.
 
 
 > This is not a comprehensive listing of my projects — it showcases only the most notable ones.<br>
 > I have numerous other repositories that serve different purposes, including data storage. While most of them are private, there are also several public ones which you can find [here](https://github.com/npanuhin?tab=repositories&sort=name)
-
 
 </details>
 
