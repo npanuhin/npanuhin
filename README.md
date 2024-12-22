@@ -35,16 +35,26 @@ If my repository is _archived_![](src/icons/github/Archive.svg), then I no longe
   <br>    [Among-Us](https://github.com/npanuhin/Among-Us) — Among Us auto player
 
 
-  <!-- **Constructor University courses:**
+  **Constructor University courses:**
   <details><summary>📢 Please read if you are a student of Constructor University</summary>
 
   > Use materials from educational repositories with caution!<br>
   > Task statements are subject to change in the future. Understand the solution thoroughly before copying it.<br>
   > Remember, you may be asked to explain your solution and thought process for the homework assignments, as well as respond to questions about the material during the exam.
 
-  </details> -->
+  </details>
 
-  <!-- TODO -->
+      [<img src="src/icons/repos/Haskell.svg" width="12">](https://github.com/npanuhin/CU-Functional-Programming)   [CU-Functional-Programming](https://github.com/npanuhin/CU-Functional-Programming)
+  <br>    [<img src="src/icons/repos/Processor.svg" width="12">](https://github.com/npanuhin/CU-Computer-Architecture)   [CU-Computer-Architecture](https://github.com/npanuhin/CU-Computer-Architecture)
+  <br>    [<img src="src/icons/repos/Binary-tree.svg" width="12">](https://github.com/npanuhin/CU-Advanced-Algo-Parallel-Programming-Practice)   [CU-Advanced-Algo-Parallel-Programming-Practice](https://github.com/npanuhin/CU-Advanced-Algo-Parallel-Programming-Practice)
+  <br>    [<img src="src/icons/repos/Kotlin.svg" width="12">](https://github.com/npanuhin/CU-Kotlin-Introduction-course)   [CU-Kotlin-Introduction-course](https://github.com/npanuhin/CU-Kotlin-Introduction-course)
+  <br>    [<img src="src/icons/repos/Kotlin.svg" width="12">](https://github.com/npanuhin/CU-Kotlin-Object-Oriented-Programming-course)   [CU-Kotlin-Object-Oriented-Programming-course](https://github.com/npanuhin/CU-Kotlin-Object-Oriented-Programming-course)
+  <br>    [<img src="src/icons/repos/Kotlin.svg" width="12">](https://github.com/npanuhin/CU-Kotlin-IDE-Code-Refactoring-course)   [CU-Kotlin-IDE-Code-Refactoring-course](https://github.com/npanuhin/CU-Kotlin-IDE-Code-Refactoring-course)
+  <br>    [<img src="src/icons/repos/Kotlin.svg" width="12">](https://github.com/npanuhin/CU-Kotlin-Collections-course)   [CU-Kotlin-Collections-course](https://github.com/npanuhin/CU-Kotlin-Collections-course)
+  <br>    [<img src="src/icons/repos/Kotlin.svg" width="12">](https://github.com/npanuhin/CU-Kotlin-Coroutines-course)   [CU-Kotlin-Coroutines-course](https://github.com/npanuhin/CU-Kotlin-Coroutines-course)
+  <br>    [<img src="src/icons/repos/Kotlin.svg" width="12">](https://github.com/npanuhin/CU-Kotlin-Tower-of-Hanoi)   [CU-Kotlin-Tower-of-Hanoi](https://github.com/npanuhin/CU-Kotlin-Tower-of-Hanoi)
+  <br>    TBA: other repos
+
 
   **ITMO University courses:**
   <details><summary>📢 Please read if you are a student of ITMO University</summary>
