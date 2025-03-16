@@ -44,7 +44,8 @@ If my repository is _archived_![](src/icons/github/Archive.svg), then I no longe
 
   </details>
 
-      [<img src="src/icons/repos/Haskell.svg" width="12">](https://github.com/npanuhin/CU-Functional-Programming)   [CU-Functional-Programming](https://github.com/npanuhin/CU-Functional-Programming)
+      [<img src="src/icons/repos/Database.svg" width="12">](https://github.com/npanuhin/CU-Databases)   [CU-Databases](https://github.com/npanuhin/CU-Databases)
+  <br>    [<img src="src/icons/repos/Haskell.svg" width="12">](https://github.com/npanuhin/CU-Functional-Programming)   [CU-Functional-Programming](https://github.com/npanuhin/CU-Functional-Programming)
   <br>    [<img src="src/icons/repos/Processor.svg" width="12">](https://github.com/npanuhin/CU-Computer-Architecture)   [CU-Computer-Architecture](https://github.com/npanuhin/CU-Computer-Architecture)
   <br>    [<img src="src/icons/repos/Binary-tree.svg" width="12">](https://github.com/npanuhin/CU-Advanced-Algo-Parallel-Programming-Practice)   [CU-Advanced-Algo-Parallel-Programming-Practice](https://github.com/npanuhin/CU-Advanced-Algo-Parallel-Programming-Practice)
   <br>    [<img src="src/icons/repos/Kotlin.svg" width="12">](https://github.com/npanuhin/CU-Kotlin-Introduction-course)   [CU-Kotlin-Introduction-course](https://github.com/npanuhin/CU-Kotlin-Introduction-course)
