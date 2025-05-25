@@ -1,8 +1,0 @@
-# Cache
-__pycache__/
-
-# Test results
-**/recent-activity/tests/events_test_result.*
-
-# Configs
-**/recent-activity/GITHUB_TOKEN.txt
