@@ -3,13 +3,12 @@
   <!-- https://raw.githubusercontent.com/blackcater/blackcater/main/images/Hi.gif -->
 </div>
 
-<!-- <img src="src/old_man/result.svg?" width="100%"> -->
-
-<!-- <picture>
+<!-- <img src="src/old_man/result.svg?" width="100%">
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="src/old_man.gif">
   <img>
-</picture> -->
-
+</picture>
+ -->
 
 <!-- > I'm testing my profile page right now, WIP! -->
 

@@ -1,0 +1,5 @@
+# Test results
+/tests/events_test_result.*
+
+# Configs
+/GITHUB_TOKEN.txt
