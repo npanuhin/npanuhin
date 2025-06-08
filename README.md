@@ -26,8 +26,8 @@ If my repository is _archived_![](src/icons/github/Archive.svg), then I no longe
 **Ongoing projects:**
 <br>    [Artwork](https://github.com/npanuhin/Artwork) — My journey in 3D graphics, SVG drawing, and all things creative 🎨 (No recent updates)
 
-**Archived projects:**
-<br>    [Kyrgyz Keyboard](https://github.com/Kyrgyz-Keyboard) — Kyrgyz Keyboard for Android (backend)
+**Legacy projects:**
+<br>    [Kyrgyz Keyboard](https://github.com/Kyrgyz-Keyboard) — Kyrgyz Keyboard for Android (backend part)
 <br>    [QuickPuTTY](https://github.com/npanuhin/QuickPuTTY) — Sublime Text plugin for PuTTY
 <br>    [Among-Us](https://github.com/npanuhin/Among-Us) — Among Us auto player
 
