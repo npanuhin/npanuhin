@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Main_layer" data-name="Main layer" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 388 100">
+<svg id="Telegram" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 388 100">
   <defs>
     <linearGradient id="linear-gradient" x1="50" y1="100" x2="50" y2="0" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#1d93d2"/>
@@ -8,7 +8,7 @@
   </defs>
   <path id="Label_Background" data-name="Label Background" d="M50,0h288C365.596,0,388,22.404,388,50h0c0,27.596-22.404,50-50,50H50V0h0Z" fill="#0b7fb2"/>
   <path id="Shadow" d="M50,100h.021c27.603,0,49.979-22.386,49.979-50h0C100,22.386,77.624,0,50.021,0h-.021" fill="none" stroke="#135475" stroke-miterlimit="10" stroke-width="3"/>
-  <g>
+  <g id="Logo">
     <circle cx="50" cy="50" r="50" fill="url(#linear-gradient)"/>
     <path d="M33.845,53.655l5.932,16.419s.742,1.536,1.536,1.536,12.606-12.288,12.606-12.288l13.136-25.371-32.998,15.466-.212,4.237Z" fill="#c8daea"/>
     <path d="M41.711,57.866l-1.139,12.103s-.477,3.708,3.231,0,7.256-6.568,7.256-6.568" fill="#a9c6d8"/>
