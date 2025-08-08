@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Main_layer" data-name="Main layer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 372 100">
+<svg id="LinkedIn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 372 100">
   <path id="Label_Background" data-name="Label Background" d="M50,0h272C349.596,0,372,22.404,372,50h0c0,27.596-22.404,50-50,50H50V0h0Z" fill="#21589b"/>
   <path id="Shadow" d="M50,100h.021c27.603,0,49.979-22.386,49.979-50h0C100,22.386,77.624,0,50.021,0h-.021" fill="none" stroke="#203c66" stroke-miterlimit="10" stroke-width="3"/>
   <g id="Logo">
     <circle cx="50" cy="50" r="50" fill="#2867b2"/>
-    <polygon points="37.182 73.999 26.827 73.999 26.827 40.594 37.198 40.594 37.198 73.999 37.183 73.999 37.182 73.999" fill="#fff"/>
-    <ellipse cx="32.004" cy="30.016" rx="6.004" ry="6.016" fill="#fff"/>
-    <path d="M75.999,73.999h-10.355v-16.249c0-3.875-.078-8.859-5.38-8.859-5.396,0-6.222,4.219-6.222,8.578v16.531h-10.355v-33.405h9.934v4.563h.14c1.388-2.625,4.772-5.391,9.809-5.391,10.48,0,12.429,6.921,12.429,15.922v18.312h0Z" fill="#fff"/>
+    <polygon points="38.065 74.066 28.096 74.066 28.096 41.908 38.08 41.908 38.08 74.066 38.065 74.066 38.065 74.066" fill="#fff"/>
+    <ellipse cx="33.08" cy="31.724" rx="5.78" ry="5.791" fill="#fff"/>
+    <path d="M75.433,74.066h-9.968v-15.643c0-3.73-.075-8.528-5.18-8.528-5.194,0-5.99,4.061-5.99,8.257v15.914h-9.968v-32.158h9.564v4.392h.135c1.336-2.527,4.594-5.189,9.443-5.189,10.089,0,11.965,6.663,11.965,15.327v17.629h0Z" fill="#fff"/>
   </g>
   <text id="Label" transform="translate(122.871 70.803)" fill="#fff" font-family="ArialMT, Arial" font-size="55"><tspan x="0" y="0">LinkedIn</tspan></text>
 </svg>
