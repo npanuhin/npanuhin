@@ -1,0 +1,7 @@
+Found GitHub API token in $GH_TOKEN environmental variable
+Log disabled
+Fetching repositories...
+Fetching languages...
+
+Handling Place(anchor=9470, image_begin=9322, image_end=9470, hide={'Jupyter Notebook', ('npanuhin/Fourier', 'JavaScript')}, replace={'Hack': 'PHP'}, include_forks=False, include_collaborative=False):
+Result image: https://raw.githubusercontent.com/npanuhin/npanuhin/language-bar/bar.svg
