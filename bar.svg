@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="846.4" height="30"><style>/* .bar_piece {
+	transition: 0.1s transform ease-in-out;
+	transform-origin: center center;
+	transform-box: fill-box;
+}
+
+.bar_piece:hover {
+	transform: scaleY(1.1);
+}
+ */
+
+text {
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+	font-size: 13px;
+}</style><mask id="bar_border_radius"><rect width="846.4" height="8" fill="#fff" rx="4.0" /></mask><g mask="url(#bar_border_radius)" transform="translate(0,0)"><rect class="bar_piece" x="0.0" width="275.006" height="8" fill="#f34b7d" /><rect class="bar_piece" x="275.006" width="266.04" height="8" fill="#3572A5" /><rect class="bar_piece" x="541.046" width="106.795" height="8" fill="#e34c26" /><rect class="bar_piece" x="647.841" width="50.12" height="8" fill="#b07219" /><rect class="bar_piece" x="697.961" width="36.793" height="8" fill="#4F5D95" /><rect class="bar_piece" x="734.754" width="28.544" height="8" fill="#3178c6" /><rect class="bar_piece" x="763.298" width="22.394" height="8" fill="#A97BFF" /><rect class="bar_piece" x="785.692" width="22.265" height="8" fill="#f1e05a" /><rect class="bar_piece" x="807.957" width="12.44" height="8" fill="#663399" /><rect class="bar_piece" x="820.397" width="7.48" height="8" fill="#c6538c" /><rect class="bar_piece" x="827.877" width="4.041" height="8" fill="#db5855" /><rect class="bar_piece" x="831.918" width="3.625" height="8" fill="#DA3434" /><rect class="bar_piece" x="835.543" width="2.764" height="8" fill="#555555" /><rect class="bar_piece" x="838.307" width="2.226" height="8" fill="#74283c" /><rect class="bar_piece" x="840.533" width="1.889" height="8" fill="#C1F12E" /><rect class="bar_piece" x="842.422" width="1.569" height="8" fill="#89e051" /><rect class="bar_piece" x="843.991" width="1.517" height="8" fill="#DAE1C2" /><rect class="bar_piece" x="845.508" width="0.47" height="8" fill="#3D6117" /><rect class="bar_piece" x="845.978" width="0.193" height="8" fill="#427819" /><rect class="bar_piece" x="846.171" width="0.153" height="8" fill="#5e5086" /><rect class="bar_piece" x="846.324" width="0.07" height="8" fill="#6E4C13" /><rect class="bar_piece" x="846.394" width="0.006" height="8" fill="#012456" /></g><g transform="translate(0,24)"><text x="124.503" fill="rgb(139, 148, 158)">C++</text><text x="388.026" fill="rgb(139, 148, 158)">Python</text><text x="577.443" fill="rgb(139, 148, 158)">HTML</text><text x="660.901" fill="rgb(139, 148, 158)">Java</text><text x="704.358" fill="rgb(139, 148, 158)">PHP</text></g></svg>
