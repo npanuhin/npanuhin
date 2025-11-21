@@ -10,6 +10,6 @@ This repository **does not have a license**. As stated on [choosealicense.com/no
 
 ⚠️ This applies in particular to the **hand-crafted icons**, **images** and **animations**, which I created for **personal use only**.
 
-However, I **permit limited use of certain parts of this repository**, including source code written in common programming languages.
+<!-- However, I **permit limited use of certain parts of this repository**, including source code written in common programming languages. (Update: This line is no longer applicable — please refer to the general "no permission" statement and the next line) -->
 
 If you are uncertain about what you are allowed to use, **please contact the author (usually me) directly**.
