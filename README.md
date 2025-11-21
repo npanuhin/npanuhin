@@ -18,18 +18,18 @@ If my repository is _archived_![](src/icons/github/Archive.svg), then I no longe
 
 
 **Active projects:**
-<br>    [Advent-of-Code](https://github.com/npanuhin/Advent-of-Code) — My elegant solutions to the captivating Advent of Code 🎄<!--  And some quirky surprises 😉 -->
-<br>    [Bing-Wallpaper-Archive](https://github.com/npanuhin/Bing-Wallpaper-Archive) — Most comprehensive collection of stunning Bing daily wallpapers 🖼️
+<br>    [Bing-Wallpaper-Archive](https://github.com/npanuhin/Bing-Wallpaper-Archive) — Most comprehensive and easy-to-use collection of Bing daily wallpapers 🖼️
 
 <details><summary><b>Repository overview</b></summary><br>
 
-**Ongoing projects:**
+**Semi-archived projects:**
+<br>    [Advent-of-Code](https://github.com/npanuhin/Advent-of-Code) — My elegant solutions to the captivating Advent of Code 🎄<!--  And some quirky surprises 😉 -->
 <br>    [Artwork](https://github.com/npanuhin/Artwork) — My journey in 3D graphics, SVG drawing, and all things creative 🎨 (No recent updates)
 
-**Legacy projects:**
-<br>    [Kyrgyz Keyboard](https://github.com/Kyrgyz-Keyboard) — Kyrgyz Keyboard for Android (backend part)
-<br>    [QuickPuTTY](https://github.com/npanuhin/QuickPuTTY) — Sublime Text plugin for PuTTY
+**Past work collection:**
 <br>    [Among-Us](https://github.com/npanuhin/Among-Us) — Among Us auto player
+<br>    [QuickPuTTY](https://github.com/npanuhin/QuickPuTTY) — Sublime Text plugin for PuTTY
+<br>    [Kyrgyz Keyboard](https://github.com/Kyrgyz-Keyboard) — Kyrgyz Keyboard for Android (backend part)
 
 **Constructor University courses:**
 <details><summary>📢 Please read if you are a student of Constructor University</summary>
@@ -41,6 +41,7 @@ If my repository is _archived_![](src/icons/github/Archive.svg), then I no longe
 </details>
 
     [<img src="src/icons/repos/Database.svg" width="12">](https://github.com/npanuhin/CU-Databases)   [CU-Databases](https://github.com/npanuhin/CU-Databases)
+<br>    [<img src="src/icons/repos/System-Design.svg" width="12">](https://github.com/npanuhin/CU-System-Design)   [CU-System-Design](https://github.com/npanuhin/CU-System-Design)
 <br>    [<img src="src/icons/repos/Processor.svg" width="12">](https://github.com/npanuhin/CU-Computer-Architecture)   [CU-Computer-Architecture](https://github.com/npanuhin/CU-Computer-Architecture)
 <br>    [<img src="src/icons/repos/Haskell.svg" width="12">](https://github.com/npanuhin/CU-Functional-Programming)   [CU-Functional-Programming](https://github.com/npanuhin/CU-Functional-Programming)
 <br>    [<img src="src/icons/repos/Kotlin.svg" width="12">](https://github.com/npanuhin/CU-Kotlin-Tower-of-Hanoi)   [CU-Kotlin-Tower-of-Hanoi](https://github.com/npanuhin/CU-Kotlin-Tower-of-Hanoi)
@@ -50,7 +51,7 @@ If my repository is _archived_![](src/icons/github/Archive.svg), then I no longe
 <br>    [<img src="src/icons/repos/Kotlin.svg" width="12">](https://github.com/npanuhin/CU-Kotlin-IDE-Code-Refactoring-course)   [CU-Kotlin-IDE-Code-Refactoring-course](https://github.com/npanuhin/CU-Kotlin-IDE-Code-Refactoring-course)
 <br>    [<img src="src/icons/repos/Kotlin.svg" width="12">](https://github.com/npanuhin/CU-Kotlin-Object-Oriented-Programming-course)   [CU-Kotlin-Object-Oriented-Programming-course](https://github.com/npanuhin/CU-Kotlin-Object-Oriented-Programming-course)
 <br>    [<img src="src/icons/repos/Binary-tree.svg" width="12">](https://github.com/npanuhin/CU-Advanced-Algo-Parallel-Programming-Practice)   [CU-Advanced-Algo-Parallel-Programming-Practice](https://github.com/npanuhin/CU-Advanced-Algo-Parallel-Programming-Practice)
-<br>    TBA: other repos
+<br>    TBA: other courses
 
 **ITMO University courses:**
 <details><summary>📢 Please read if you are a student of ITMO University</summary>
