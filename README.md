@@ -102,17 +102,17 @@ Projects with the name `edu-...` are created for one-time use, for example, to s
   [![](https://img.shields.io/badge/LinkedIn-2867B2?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4KICA8cGF0aCBmaWxsPSIjRkZGIiBkPSJNOTIuODU3IDBINy4xMjFDMy4xOTIgMCAwIDMuMjM3IDAgNy4yMXY4NS41OEMwIDk2Ljc2MyAzLjE5MiAxMDAgNy4xMjEgMTAwaDg1LjczN2MzLjkyOSAwIDcuMTQzLTMuMjM3IDcuMTQzLTcuMjFWNy4yMUMxMDAgMy4yMzcgOTYuNzg2IDAgOTIuODU3IDBaTTMwLjIyMyA4NS43MTRIMTUuNDAyVjM3Ljk5MWgxNC44NDR2NDcuNzIzaC0uMDIyWm0tNy40MTEtNTQuMjQxYy00Ljc1NCAwLTguNTk0LTMuODYyLTguNTk0LTguNTk0czMuODM5LTguNTk0IDguNTk0LTguNTk0IDguNTk0IDMuODYyIDguNTk0IDguNTk0LTMuODM5IDguNTk0LTguNTk0IDguNTk0Wm02Mi45NjkgNTQuMjQxSDcwLjk2VjYyLjVjMC01LjUzNi0uMTEyLTEyLjY1Ni03LjcwMS0xMi42NTYtNy43MjMgMC04LjkwNiA2LjAyNy04LjkwNiAxMi4yNTR2MjMuNjE2SDM5LjUzMlYzNy45OTFoMTQuMjE5djYuNTE4aC4yMDFjMS45ODctMy43NSA2LjgzLTcuNzAxIDE0LjA0LTcuNzAxIDE1IDAgMTcuNzkgOS44ODggMTcuNzkgMjIuNzQ2djI2LjE2MVoiLz4KPC9zdmc%2BCg%3D%3D)](https://linkedin.com/in/npanuhin) -->
   <!-- [![](https://img.shields.io/badge/Email%EF%BC%BBOFFICIAL%EF%BC%BD-C71610?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4KICA8cGF0aCBmaWxsPSIjRkZGIiBkPSJNNTAgMGMyNy41NTMgMCA1MCAyMi40NDcgNTAgNTAgMCAxNy4xNjUtOC4wMTEgMjUuMjY0LTE4LjEzNCAyNS4yNjQtNS44OTggMC0xMS4wMDQtMy4wODEtMTMuOTA4LTcuNjU5LTQuNTc4IDQuNjY2LTEwLjkxNiA3LjU3LTE3Ljk1OCA3LjU3LTEzLjkwOCAwLTI1LjE3Ni0xMS4yNjgtMjUuMTc2LTI1LjE3NlMzNi4wOTIgMjQuODIzIDUwIDI0LjgyM3MyNS4xNzYgMTEuMjY4IDI1LjE3NiAyNS4xNzZ2OC4xODdjMCA0LjEzNyAyLjkwNSA3LjA0MiA2LjY5IDcuMDQyIDQuNDg5IDAgOC4xODctMy43ODUgOC4xODctMTUuMjI5QzkwLjA1MyAyNy45MDQgNzIuMDk1IDkuOTQ2IDUwIDkuOTQ2UzkuOTQ3IDI3LjkwNSA5Ljk0NyA1MCAyNy45MDUgOTAuMDUzIDUwIDkwLjA1M2MxMi43NjQgMCAyMS41NjctNi4zMzggMjEuNTY3LTYuMzM4bDYuNjAyIDcuNTdTNjYuOTAyIDEwMCA1MCAxMDBDMjIuNDQ3IDEwMCAwIDc3LjU1MyAwIDUwUzIyLjQ0NyAwIDUwIDBaTTM0Ljc3MSA1MGMwIDguMzYzIDYuNzc4IDE1LjIyOSAxNS4yMjkgMTUuMjI5IDguMzYzIDAgMTUuMjI5LTYuODY2IDE1LjIyOS0xNS4yMjkgMC04LjQ1MS02Ljg2Ni0xNS4yMjktMTUuMjI5LTE1LjIyOUExNS4xNzggMTUuMTc4IDAgMCAwIDM0Ljc3MSA1MFoiLz4KPC9zdmc%2BCg%3D%3D)](mailto:inbox@npanuhin.me) -->
 
-  <a href="https://t.me/npanuhin"><img src="src/icons/icons_Telegram.svg" height="35px"></a>
+  <a href="https://t.me/npanuhin"><img src="src/icons/social/social_Telegram.svg" height="35px"></a>
    
-  <a href="https://vk.com/npanuhin"><img src="src/icons/icons_VK.svg" height="35px"></a>
+  <a href="https://vk.com/npanuhin"><img src="src/icons/social/social_VK.svg" height="35px"></a>
    
-  <a href="https://steamcommunity.com/id/npanuhin"><img src="src/icons/icons_Steam.svg" height="35px"></a>
+  <a href="https://steamcommunity.com/id/npanuhin"><img src="src/icons/social/social_Steam.svg" height="35px"></a>
    
-  <a href="https://discord.com/users/532989319481393183"><img src="src/icons/icons_Discord.svg" height="35px"></a>
+  <a href="https://discord.com/users/532989319481393183"><img src="src/icons/social/social_Discord.svg" height="35px"></a>
    
-  <a href="https://linkedin.com/in/npanuhin"><img src="src/icons/icons_LinkedIn.svg" height="35px"></a>
+  <a href="https://linkedin.com/in/npanuhin"><img src="src/icons/social/social_LinkedIn.svg" height="35px"></a>
    
-  <a href="mailto:inbox@npanuhin.me"><img src="src/icons/icons_Email.svg" height="35px"></a>
+  <a href="mailto:inbox@npanuhin.me"><img src="src/icons/social/social_Email.svg" height="35px"></a>
 
 </div>
 
@@ -185,22 +185,3 @@ Projects with the name `edu-...` are created for one-time use, for example, to s
 
 <img src="src/icons/StarredRepository.svg"> Starred {REPO}' -->
 
-
-
-
-<!-- https://github-readme-stats.vercel.app/api/pin/?username=npanuhin&repo=BIOCAD&theme=github_dark&bg_color=transparent -->
-
-<!--
-**npanuhin/npanuhin** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
