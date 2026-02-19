@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg id="Email" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 302.999 100">
-  <path id="Label_Background" data-name="Label Background" d="M50,0h203C280.596,0,303,22.404,303,50h0c0,27.596-22.404,50-50,50H50V0h0Z" fill="#a31b00"/>
+  <path id="Label_Background" d="M50,0h203C280.596,0,303,22.404,303,50h0c0,27.596-22.404,50-50,50H50V0h0Z" fill="#a31b00"/>
   <path id="Shadow" d="M50,100h.021c27.603,0,49.979-22.386,49.979-50h0C100,22.386,77.624,0,50.021,0h-.021" fill="none" stroke="#6b0300" stroke-miterlimit="10" stroke-width="3"/>
   <g id="Logo">
     <circle cx="50" cy="50" r="50" fill="#c71610"/>
