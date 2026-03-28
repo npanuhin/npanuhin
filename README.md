@@ -24,9 +24,9 @@ If my repository is _archived_![](src/icons/github/Archive.svg), then I no longe
 
 **Semi-archived projects:**
 <br>    [Advent-of-Code](https://github.com/npanuhin/Advent-of-Code) — My elegant solutions to the captivating Advent of Code 🎄<!--  And some quirky surprises 😉 -->
-<br>    [Artwork](https://github.com/npanuhin/Artwork) — My journey in 3D graphics, SVG drawing, and all things creative 🎨 (No recent updates)
 
 **Past work collection:**
+<br>    [Artwork](https://github.com/npanuhin/Artwork) — My journey in 3D graphics, SVG drawing, and all things creative 🎨
 <br>    [Among-Us](https://github.com/npanuhin/Among-Us) — Among Us auto player
 <br>    [QuickPuTTY](https://github.com/npanuhin/QuickPuTTY) — Sublime Text plugin for PuTTY
 <br>    [Kyrgyz Keyboard](https://github.com/Kyrgyz-Keyboard) — Kyrgyz Keyboard for Android (backend part)
