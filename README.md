@@ -108,6 +108,8 @@ Projects with the name `edu-...` are created for one-time use, for example, to s
    
   <a href="https://steamcommunity.com/id/npanuhin"><img src="src/icons/social/social_Steam.svg" height="35px"></a>
    
+  <a href="https://instagram.com/npanuhin"><img src="src/icons/social/social_Instagram.svg" height="35px"></a>
+   
   <a href="https://discord.com/users/532989319481393183"><img src="src/icons/social/social_Discord.svg" height="35px"></a>
    
   <a href="https://linkedin.com/in/npanuhin"><img src="src/icons/social/social_LinkedIn.svg" height="35px"></a>
