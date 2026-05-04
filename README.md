@@ -12,26 +12,28 @@
 
 <!-- > I'm testing my profile page right now, WIP! -->
 
-I greatly appreciate every contribution to my repositories: [explore](https://github.com/npanuhin?tab=repositories)![](src/icons/github/Repository.svg), create GitHub Issues![](src/icons/github/IssueOpened.svg), and submit Pull Requests![](src/icons/github/PullRequestOpened.svg)! 😉
-
-If my repository is _archived_![](src/icons/github/Archive.svg), then I no longer maintain it. But you can still submit an issue [here](https://github.com/npanuhin/npanuhin/issues/new?template=questions-regarding-the-archived-repository.md) or [contact me directly](mailto:github@npanuhin.me?subject=Questions%20regarding%20the%20archived%20repository:%20<repository%20name%20here>) to ask a question.
+<!-- I greatly appreciate every contribution to my repositories: [explore](https://github.com/npanuhin?tab=repositories)![](src/icons/github/Repository.svg), create GitHub Issues![](src/icons/github/IssueOpened.svg), and submit Pull Requests![](src/icons/github/PullRequestOpened.svg)! 😉 -->
 
 
-**Active projects:**
+
+
+**Active projects**
 <br>    [Bing-Wallpaper-Archive](https://github.com/npanuhin/Bing-Wallpaper-Archive) — Most comprehensive and easy-to-use collection of Bing daily wallpapers 🖼️
+
+
 
 <details><summary><b>Repository overview</b></summary><br>
 
-**Semi-archived projects:**
+**Semi-archived projects**
 <br>    [Advent-of-Code](https://github.com/npanuhin/Advent-of-Code) — My elegant solutions to the captivating Advent of Code 🎄<!--  And some quirky surprises 😉 -->
 
-**Past work collection:**
+**Past work collection**
 <br>    [Artwork](https://github.com/npanuhin/Artwork) — My journey in 3D graphics, SVG drawing, and all things creative 🎨
 <br>    [Among-Us](https://github.com/npanuhin/Among-Us) — Among Us auto player
 <br>    [QuickPuTTY](https://github.com/npanuhin/QuickPuTTY) — Sublime Text plugin for PuTTY
 <br>    [Kyrgyz Keyboard](https://github.com/Kyrgyz-Keyboard) — Kyrgyz Keyboard for Android (backend part)
 
-**Constructor University courses:**
+**Constructor University courses**
 <details><summary>📢 Please read if you are a student of Constructor University</summary>
 
 > Use materials from educational repositories with caution!<br>
@@ -53,7 +55,7 @@ If my repository is _archived_![](src/icons/github/Archive.svg), then I no longe
 <br>    [<img src="src/icons/repos/Kotlin.svg" width="12">](https://github.com/npanuhin/CU-Kotlin-Object-Oriented-Programming-course)   [CU-Kotlin-Object-Oriented-Programming-course](https://github.com/npanuhin/CU-Kotlin-Object-Oriented-Programming-course)
 <br>    [<img src="src/icons/repos/Binary-tree.svg" width="12">](https://github.com/npanuhin/CU-Advanced-Algo-Parallel-Programming-Practice)   [CU-Advanced-Algo-Parallel-Programming-Practice](https://github.com/npanuhin/CU-Advanced-Algo-Parallel-Programming-Practice)
 
-**ITMO University courses:**
+**ITMO University courses**
 <details><summary>📢 Please read if you are a student of ITMO University</summary>
 
 > Use materials from educational repositories with caution!<br>
@@ -78,16 +80,22 @@ If my repository is _archived_![](src/icons/github/Archive.svg), then I no longe
 <br>    [<img src="src/icons/repos/C++.svg" width="12">](https://github.com/npanuhin/ITMO-CPP-ouch-enter-order)   [ITMO-CPP-ouch-enter-order](https://github.com/npanuhin/ITMO-CPP-ouch-enter-order)
 <br>    [<img src="src/icons/repos/C++.svg" width="12">](https://github.com/npanuhin/ITMO-CPP-calc-number-system)   [ITMO-CPP-calc-number-system](https://github.com/npanuhin/ITMO-CPP-calc-number-system)
 
-**[School projects:](https://github.com/npanuhin/school)**
+**[School projects](https://github.com/npanuhin/school)**
 <br>    [<img src="src/icons/repos/NetSchool-PTHS.png" width="12">](https://github.com/npanuhin/NetSchool-PTHS)   [NetSchool-PTHS](https://github.com/npanuhin/NetSchool-PTHS) — Website and main repo of NetSchool PTHS
 <br>    [<img src="src/icons/repos/NetSchool.jpg" width="12">](https://github.com/npanuhin/NetSchool-parser)   [NetSchool-parser](https://github.com/npanuhin/NetSchool-parser) — Data-collection tool/parser<!--  + [NetSchool-bot](https://github.com/npanuhin/NetSchool-bot) — Long deprecated VK-bot -->
 <br>    [<img src="src/icons/repos/BIOCAD.svg" width="12">](https://github.com/npanuhin/BIOCAD)   [BIOCAD](https://github.com/npanuhin/BIOCAD) + [BIOCAD-BWA](https://github.com/npanuhin/BIOCAD-BWA) — High school graduation project
 
-**Educational projects:**<br>
+
+**Archived repositories**<br>
+If my repository is _archived_![](src/icons/github/Archive.svg), then I no longer maintain it. But you can still submit an issue [here](https://github.com/npanuhin/npanuhin/issues/new?template=questions-regarding-the-archived-repository.md) or [contact me directly](mailto:github@npanuhin.me?subject=Questions%20regarding%20the%20archived%20repository:%20<repository%20name%20here>) to ask a question.
+
+
+**Educational projects**<br>
 Projects with the name `edu-...` are created for one-time use, for example, to submit an assignment or demonstrate some small project (e.g. for an interview). They will not be updated or maintained and will be archived shortly after creation.
 
-> This is not a comprehensive listing of my projects — it showcases only the most notable ones.<br>
-> I have numerous other repositories that serve different purposes, including data storage. While most of them are private, there are also several public ones which you can find [here](https://github.com/npanuhin?tab=repositories&sort=name)
+<!-- > This is not a comprehensive listing of my projects — it showcases only the most notable ones.<br>
+> I have numerous other repositories that serve different purposes, including data storage. While most of them are private, there are also several public ones which you can find [here](https://github.com/npanuhin?tab=repositories&sort=name) -->
+
 
 </details><br>
 
