@@ -19,6 +19,7 @@
 
 **Active projects**
 <br>    [Bing-Wallpaper-Archive](https://github.com/npanuhin/Bing-Wallpaper-Archive) — Most comprehensive and easy-to-use collection of Bing daily wallpapers 🖼️
+<br>    NetYield — Interactive bond screener and yield calculator with tax & fee accounting for Tinkoff Invest
 
 
 
