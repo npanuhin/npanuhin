@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>2-Parameter Squircle Customizer (Figma & HyperOS Math)</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card: #161b22;
+      --text: #e6edf3;
+      --subtext: #8b949e;
+      --accent: #58a6ff;
+      --border: #30363d;
+    }
+    body {
+      margin: 0;
+      padding: 30px;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      box-sizing: border-box;
+    }
+    h1 {
+      margin-top: 0;
+      font-size: 26px;
+      font-weight: 600;
+      text-align: center;
+    }
+    .container {
+      max-width: 960px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 22px;
+    }
+    .panel {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .slider-row {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .slider-header {
+      display: flex;
+      justify-content: space-between;
+      font-size: 15px;
+      font-weight: 500;
+    }
+    .slider-header span.val {
+      color: var(--accent);
+      font-family: monospace;
+      font-size: 16px;
+      font-weight: 600;
+    }
+    .slider-desc {
+      font-size: 12px;
+      color: var(--subtext);
+      margin-top: -4px;
+    }
+    input[type=range] {
+      width: 100%;
+      height: 6px;
+      border-radius: 3px;
+      background: #2b313a;
+      outline: none;
+      -webkit-appearance: none;
+    }
+    input[type=range]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      background: var(--accent);
+      cursor: pointer;
+      box-shadow: 0 0 10px rgba(88, 166, 255, 0.5);
+    }
+    .presets {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    button {
+      background: #21262d;
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 8px 14px;
+      border-radius: 8px;
+      font-size: 13px;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+    button:hover {
+      background: #30363d;
+      border-color: #8b949e;
+    }
+    button.active {
+      background: #1f6feb;
+      border-color: #58a6ff;
+      color: #fff;
+    }
+    .preview-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+      gap: 20px;
+      align-items: center;
+      justify-items: center;
+      padding: 16px 0;
+    }
+    .icon-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+    .icon-wrapper span {
+      font-size: 13px;
+      color: var(--subtext);
+    }
+    svg.icon {
+      width: 80px;
+      height: 80px;
+      filter: drop-shadow(0 8px 18px rgba(0, 0, 0, 0.45));
+      transition: transform 0.15s ease;
+    }
+    svg.icon:hover {
+      transform: scale(1.05);
+    }
+    .badges-preview {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      padding-top: 10px;
+    }
+    .badge-row {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .badge-row svg {
+      height: 38px;
+      filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.35));
+    }
+    .code-box {
+      background: #090d13;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 12px 16px;
+      font-family: monospace;
+      font-size: 12px;
+      color: #7ee787;
+      overflow-x: auto;
+      white-space: pre-wrap;
+      word-break: break-all;
+    }
+    .meta-stats {
+      display: flex;
+      gap: 24px;
+      font-size: 13px;
+      color: var(--subtext);
+      border-top: 1px solid var(--border);
+      padding-top: 14px;
+      flex-wrap: wrap;
+    }
+    .meta-stats b {
+      color: var(--text);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div>
+      <h1>2 независимых параметра: Радиус (R) и Сглаживание (Smoothing)</h1>
+      <p style="color: var(--subtext); text-align: center; margin-top: -8px;">
+        Точный алгоритм Figma / iOS / HyperOS: радиус отвечает за глубину угла, а сглаживание — за плавность захода на прямые стороны.
+      </p>
+    </div>
+
+    <div class="panel">
+      <!-- Slider 1: Corner Radius -->
+      <div class="slider-row">
+        <div class="slider-header">
+          <span>1. Базовый радиус угла (Corner Radius R)</span>
+          <span class="val" id="valRadius">24.0 pt</span>
+        </div>
+        <div class="slider-desc">Отвечает за размер скругления: насколько угол «срезан». При 0% сглаживания это обычный круглый rect.</div>
+        <input type="range" id="inputRadius" min="15" max="32" step="0.5" value="24">
+      </div>
+
+      <!-- Slider 2: Corner Smoothing -->
+      <div class="slider-row">
+        <div class="slider-header">
+          <span>2. Сглаживание перехода (Corner Smoothing &xi;)</span>
+          <span class="val" id="valSmoothing">40 %</span>
+        </div>
+        <div class="slider-desc">0% = обычный круговой радиус (острый стык); 60% = iOS / HyperOS; 100% = максимальный плавный скверкл.</div>
+        <input type="range" id="inputSmoothing" min="0" max="90" step="1" value="40">
+      </div>
+
+      <div class="presets">
+        <span style="font-size: 13px; color: var(--subtext); align-self: center; margin-right: 4px;">Пресеты:</span>
+        <button onclick="setPreset(22.5, 0, this)">Обычный rect (R=22.5, S=0%)</button>
+        <button onclick="setPreset(25.0, 35, this)" class="active">Квадратный + Мягкий (R=25, S=35%)</button>
+        <button onclick="setPreset(24.0, 55, this)">HyperOS Баланс (R=24, S=55%)</button>
+        <button onclick="setPreset(26.0, 60, this)">HyperOS Крупный (R=26, S=60%)</button>
+        <button onclick="setPreset(24.0, 95, this)">Старый пухлый (R=24, S=95%)</button>
+      </div>
+
+      <div class="meta-stats">
+        <div>Длина чистой прямой стороны: <b id="statFlat">32.8 pt</b></div>
+        <div>Зона перехода от угла: <b id="statP">33.6 pt</b></div>
+        <div>Глубина в вершине угла: <b id="statDepth">7.03 pt</b></div>
+      </div>
+    </div>
+
+    <!-- Preview Grid -->
+    <div class="panel">
+      <div style="font-size: 16px; font-weight: 600; margin-bottom: 6px;">Квадратные иконки</div>
+      <div class="preview-grid">
+        <div class="icon-wrapper">
+          <svg class="icon" viewBox="0 0 100 100" id="iconVK">
+            <path id="bgVK" fill="#07f"/>
+            <path d="M53.208,72.039c-22.789,0-35.787-15.623-36.329-41.62h11.415c.375,19.081,8.79,27.163,15.456,28.83v-28.83h10.749v16.456c6.582-.708,13.497-8.207,15.831-16.456h10.749c-1.791,10.165-9.291,17.664-14.623,20.747,5.333,2.5,13.874,9.041,17.123,20.872h-11.832c-2.541-7.916-8.873-14.04-17.247-14.873v14.873h-1.292Z" fill="#fff"/>
+          </svg>
+          <span>VK</span>
+        </div>
+
+        <div class="icon-wrapper">
+          <svg class="icon" viewBox="0 0 100 100" id="iconDiscord">
+            <path id="bgDiscord" fill="#5865f2"/>
+            <path d="M59.555,24.273c-.663,1.178-1.259,2.396-1.8,3.641-5.144-.772-10.383-.772-15.54,0-.528-1.245-1.137-2.464-1.8-3.641-4.833.826-9.543,2.274-14.011,4.318-8.853,13.117-11.249,25.896-10.058,38.498,5.185,3.831,10.992,6.755,17.178,8.623,1.394-1.868,2.626-3.858,3.682-5.929-2.003-.745-3.939-1.679-5.794-2.761.487-.352.961-.717,1.421-1.069,10.87,5.117,23.459,5.117,34.343,0,.46.379.934.745,1.421,1.069-1.855,1.096-3.79,2.017-5.807,2.775,1.056,2.071,2.288,4.061,3.682,5.929,6.186-1.868,11.993-4.778,17.178-8.609,1.407-14.62-2.41-27.29-10.085-38.512-4.453-2.044-9.164-3.492-13.997-4.305l-.014-.027ZM38.722,59.334c-3.344,0-6.119-3.032-6.119-6.782s2.667-6.795,6.105-6.795,6.173,3.059,6.119,6.795c-.054,3.736-2.694,6.782-6.105,6.782ZM61.274,59.334c-3.357,0-6.105-3.032-6.105-6.782s2.667-6.795,6.105-6.795,6.159,3.059,6.105,6.795c-.054,3.736-2.694,6.782-6.105,6.782Z" fill="#fff"/>
+          </svg>
+          <span>Discord</span>
+        </div>
+
+        <div class="icon-wrapper">
+          <svg class="icon" viewBox="0 0 100 100" id="iconSteam">
+            <defs>
+              <linearGradient id="Steam_Gradient_Preview" x1="50" y1="0" x2="50" y2="100" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#111d2e"/>
+                <stop offset=".212" stop-color="#051839"/>
+                <stop offset=".407" stop-color="#0a1b48"/>
+                <stop offset=".581" stop-color="#132e62"/>
+                <stop offset=".738" stop-color="#144b7e"/>
+                <stop offset=".873" stop-color="#136497"/>
+                <stop offset="1" stop-color="#1387b8"/>
+              </linearGradient>
+            </defs>
+            <path id="bgSteam" fill="url(#Steam_Gradient_Preview)"/>
+            <path d="M-5.097,60.758c6.393,2.637,19.785,8.166,26.179,10.803.685,3.446,2.628,6.514,5.452,8.606,2.824,2.092,6.326,3.058,9.823,2.71,3.497-.348,6.74-1.986,9.095-4.593,2.356-2.608,3.656-5.998,3.647-9.512v-.666l16.946-12.119h.429c3.727,0,7.369-1.104,10.469-3.172,3.099-2.068,5.516-5.008,6.945-8.449,1.429-3.44,1.807-7.227,1.084-10.882s-2.511-7.014-5.141-9.653-5.984-4.44-9.637-5.175-7.442-.371-10.889,1.045c-3.447,1.416-6.396,3.822-8.476,6.913-2.08,3.091-3.197,6.729-3.211,10.454v.248l-11.908,17.258h-.791c-2.843-.006-5.621.853-7.965,2.462L-.704,45.586h0M44.762,72.632c-.766,1.911-2.072,3.557-3.757,4.739-1.686,1.182-3.679,1.847-5.737,1.915-2.058.069-4.091-.463-5.852-1.53-1.761-1.067-3.173-2.623-4.064-4.479l6.146,2.541c1.915.797,4.068.801,5.985.011,1.917-.79,3.442-2.309,4.239-4.223.797-1.914.801-4.066.011-5.983-.79-1.917-2.31-3.441-4.224-4.238l-6.338-2.62c1.926-.727,4.023-.877,6.033-.433,2.011.444,3.848,1.463,5.289,2.933,1.441,1.47,2.423,3.328,2.826,5.346.403,2.019.21,4.111-.556,6.021ZM66.517,49.639c-6.936,0-12.559-5.623-12.559-12.559s5.623-12.559,12.559-12.559,12.559,5.623,12.559,12.559-5.623,12.559-12.559,12.559Z" fill="#fff"/>
+            <circle cx="66.515" cy="37.06" r="9.462" fill="#fff"/>
+          </svg>
+          <span>Steam</span>
+        </div>
+
+        <div class="icon-wrapper">
+          <svg class="icon" viewBox="0 0 100 100" id="iconInstagram">
+            <defs>
+              <clipPath id="clippathPreview">
+                <path id="bgInstagramClip" fill="none"/>
+              </clipPath>
+              <radialGradient id="IG_Pink" cx="-391.248" cy="129.433" fx="-391.248" fy="129.433" r="5.235" gradientTransform="translate(-4808.008 247.634) rotate(164.25) scale(12.205 -8.793)" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#ff005f"/><stop offset="1" stop-color="#fc01d8"/>
+              </radialGradient>
+              <radialGradient id="IG_Yellow" cx="-406.726" cy="178.249" fx="-406.726" fy="178.249" r="5.235" gradientTransform="translate(2910.113 -6093.764) rotate(-90) scale(15.247 -16.177)" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#fc0"/><stop offset=".124" stop-color="#fc0"/><stop offset=".567" stop-color="#fe4a05"/><stop offset=".694" stop-color="#ff0f3f"/><stop offset="1" stop-color="#fe0657" stop-opacity="0"/>
+              </radialGradient>
+              <radialGradient id="IG_Orange" cx="-323.021" cy="205.22" fx="-323.021" fy="205.22" r="6.5" gradientTransform="translate(2049.295 -639.077) rotate(-59.87) scale(5.078 -6.611)" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#fc0"/><stop offset="1" stop-color="#fc0" stop-opacity="0"/>
+              </radialGradient>
+              <radialGradient id="IG_Purple" cx="-507.146" cy="848.221" fx="-507.146" fy="848.221" r="6.708" gradientTransform="translate(-5322.183 -1321.393) rotate(164.274) scale(9.419 -3.209)" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#780cff"/><stop offset="1" stop-color="#820bff" stop-opacity="0"/>
+              </radialGradient>
+            </defs>
+            <g clip-path="url(#clippathPreview)">
+              <rect width="100" height="100" fill="url(#IG_Pink)"/>
+              <rect width="100" height="100" fill="url(#IG_Yellow)"/>
+              <rect width="100" height="100" fill="url(#IG_Orange)"/>
+              <rect width="100" height="100" fill="url(#IG_Purple)"/>
+              <path d="M50.003,12.877c-10.089,0-11.356.044-15.318.224-3.955.181-6.655.807-9.017,1.725-2.443.948-4.516,2.217-6.581,4.281-2.066,2.063-3.336,4.135-4.288,6.575-.921,2.361-1.548,5.06-1.726,9.01-.177,3.96-.224,5.226-.224,15.308s.045,11.343.224,15.303c.182,3.952.808,6.65,1.726,9.01.95,2.442,2.219,4.513,4.285,6.576,2.064,2.065,4.137,3.336,6.579,4.285,2.364.918,5.064,1.544,9.018,1.725,3.963.18,5.228.224,15.317.224s11.353-.044,15.315-.224c3.955-.181,6.658-.807,9.021-1.725,2.443-.948,4.512-2.22,6.576-4.285,2.066-2.063,3.336-4.135,4.288-6.575.913-2.361,1.54-5.06,1.726-9.01.178-3.96.224-5.222.224-15.304s-.046-11.347-.224-15.307c-.186-3.952-.813-6.65-1.726-9.01-.952-2.442-2.221-4.513-4.288-6.576-2.067-2.065-4.133-3.333-6.579-4.281-2.368-.918-5.069-1.544-9.024-1.725-3.963-.18-5.224-.224-15.317-.224h.012ZM46.671,19.567c.989-.002,2.093,0,3.333,0,9.919,0,11.095.036,15.012.213,3.622.166,5.588.77,6.898,1.278,1.734.673,2.97,1.477,4.269,2.776,1.3,1.299,2.105,2.537,2.78,4.269.508,1.307,1.115,3.271,1.279,6.891.178,3.913.217,5.089.217,14.996s-.039,11.083-.217,14.996c-.166,3.619-.771,5.584-1.279,6.891-.673,1.732-1.48,2.966-2.78,4.264-1.3,1.299-2.535,2.104-4.269,2.776-1.308.51-3.275,1.114-6.898,1.279-3.916.178-5.093.217-15.012.217s-11.096-.039-15.012-.217c-3.622-.167-5.588-.772-6.898-1.28-1.734-.673-2.972-1.477-4.272-2.776-1.3-1.299-2.105-2.534-2.78-4.267-.508-1.307-1.115-3.271-1.279-6.891-.178-3.913-.214-5.089-.214-15.002s.036-11.083.214-14.996c.166-3.619.771-5.584,1.279-6.892.673-1.732,1.48-2.97,2.78-4.269,1.3-1.299,2.539-2.104,4.272-2.778,1.31-.51,3.276-1.114,6.898-1.28,3.427-.155,4.755-.201,11.679-.209v.009ZM69.834,25.731c-2.461,0-4.458,1.993-4.458,4.453s1.997,4.455,4.458,4.455,4.458-1.995,4.458-4.455-1.997-4.455-4.458-4.455v.002ZM50.003,30.936c-10.536,0-19.078,8.536-19.078,19.064s8.542,19.06,19.078,19.06,19.075-8.532,19.075-19.06-8.54-19.064-19.076-19.064h0ZM50.003,37.626c6.839,0,12.383,5.54,12.383,12.374s-5.545,12.374-12.383,12.374-12.383-5.541-12.383-12.374,5.544-12.374,12.383-12.374h0Z" fill="#fff"/>
+            </g>
+          </svg>
+          <span>Instagram</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Badges Preview -->
+    <div class="panel">
+      <div style="font-size: 16px; font-weight: 600; margin-bottom: 6px;">Бейджи с текстом</div>
+      <div class="badges-preview">
+        <div class="badge-row">
+          <svg viewBox="0 0 388 100" id="badgeTelegram">
+            <defs>
+              <linearGradient id="TG_Grad" x1="50" y1="0" x2="50" y2="100" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#2aabee"/><stop offset="1" stop-color="#229ed9"/>
+              </linearGradient>
+            </defs>
+            <path id="bgTelegramLabel" fill="#1a8dc7"/>
+            <text transform="translate(130.258 70.803)" fill="#fff" font-family="ArialMT, Arial" font-size="55"><tspan x="0" y="0" letter-spacing="-.111em">T</tspan><tspan x="27.5" y="0">elegram </tspan></text>
+            <path id="shadowTelegram" fill="none" stroke="#0e4d6c" stroke-miterlimit="10" stroke-width="4"/>
+            <g>
+              <path id="bgTelegramLogo" fill="url(#TG_Grad)"/>
+              <path d="M20.551,49.194c15.872-6.915,26.455-11.474,31.751-13.676,15.12-6.289,18.262-7.381,20.309-7.417.45-.008,1.457.104,2.11.633.551.447.702,1.051.775,1.474s.163,1.389.091,2.143c-.819,8.609-4.365,29.501-6.168,39.143-.763,4.08-2.266,5.448-3.721,5.582-3.162.291-5.563-2.089-8.625-4.097-4.792-3.141-7.499-5.096-12.15-8.162-5.375-3.542-1.891-5.489,1.173-8.671.802-.833,14.732-13.504,15.002-14.653.034-.144.065-.68-.253-.963s-.788-.186-1.127-.109c-.481.109-8.136,5.169-22.965,15.179-2.173,1.492-4.141,2.219-5.904,2.181-1.944-.042-5.683-1.099-8.463-2.003-3.41-1.108-6.119-1.694-5.883-3.577.123-.98,1.473-1.983,4.05-3.008Z" fill="#fff" fill-rule="evenodd"/>
+            </g>
+          </svg>
+        </div>
+
+        <div class="badge-row">
+          <svg viewBox="0 0 372 100" id="badgeLinkedIn">
+            <path id="bgLinkedInLabel" fill="#0959aa"/>
+            <text transform="translate(128.03 70.803)" fill="#fff" font-family="ArialMT, Arial" font-size="55"><tspan x="0" y="0">LinkedIn</tspan></text>
+            <path id="shadowLinkedIn" fill="none" stroke="#042d55" stroke-miterlimit="10" stroke-width="4"/>
+            <g>
+              <path id="bgLinkedInLogo" fill="#0a66c2"/>
+              <polygon points="36.167 77.499 24.777 77.499 24.777 40.753 36.185 40.753 36.185 77.499 36.168 77.499 36.167 77.499" fill="#fff"/>
+              <ellipse cx="30.472" cy="29.117" rx="6.605" ry="6.617" fill="#fff"/>
+              <path d="M78.866,77.499h-11.391v-17.874c0-4.263-.086-9.745-5.919-9.745-5.935,0-6.845,4.641-6.845,9.435v18.184h-11.391v-36.746h10.928v5.019h.154c1.527-2.887,5.249-5.93,10.79-5.93,11.528,0,13.672,7.614,13.672,17.514v20.144h0Z" fill="#fff"/>
+            </g>
+          </svg>
+        </div>
+
+        <div class="badge-row">
+          <svg viewBox="0 0 302.999 100" id="badgeEmail">
+            <path id="bgEmailLabel" fill="#af130e"/>
+            <text transform="translate(127.737 70.698)" fill="#fff" font-family="ArialMT, Arial" font-size="55"><tspan x="0" y="0">Email</tspan></text>
+            <path id="shadowEmail" fill="none" stroke="#530907" stroke-miterlimit="10" stroke-width="4"/>
+            <g>
+              <path id="bgEmailLogo" fill="#c71610"/>
+              <path d="M47.917,17.793c18.722-1.185,34.356,13.733,34.356,32.207,0,11.079-5.171,16.307-11.705,16.307-3.807,0-7.103-1.989-8.977-4.944-3.389,3.454-8.272,5.412-13.62,4.763-7.383-.896-13.314-6.903-14.121-14.297-1.111-10.184,7.186-18.731,17.292-18.041,8.58.586,15.108,7.996,15.108,16.596v4.899c0,2.67,1.875,4.545,4.318,4.545,2.547,0,4.7-1.888,5.183-7.363,1.183-13.404-7.76-25.53-21.007-27.895-16.343-2.918-30.597,9.614-30.597,25.429,0,14.262,11.591,25.853,25.853,25.853,5.234,0,9.435-1.651,11.804-2.855,1.308-.665,2.895-.343,3.86.763h0c1.37,1.571.919,4.028-.941,4.97-3.162,1.602-8.315,3.542-14.723,3.542-18.474,0-33.392-15.634-32.207-34.356,1.015-16.049,14.075-29.109,30.124-30.124ZM40.17,50c0,5.398,4.375,9.83,9.83,9.83,5.398,0,9.83-4.432,9.83-9.83,0-5.455-4.432-9.83-9.83-9.83-5.411-.018-9.812,4.353-9.83,9.764,0,.022,0,.044,0,.066Z" fill="#fff"/>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <!-- Output Code -->
+    <div class="panel">
+      <div style="display: flex; justify-content: space-between; align-items: center;">
+        <span style="font-size: 15px; font-weight: 500;">Сгенерированный SVG контур (&lt;path d="..."&gt;):</span>
+        <button onclick="navigator.clipboard.writeText(currentSquirclePath); this.innerText='Скопировано!'; setTimeout(()=>this.innerText='Копировать', 1500)">Копировать</button>
+      </div>
+      <div class="code-box" id="codeBox"></div>
+    </div>
+
+  </div>
+
+  <script>
+    let currentSquirclePath = "";
+    const inputRadius = document.getElementById('inputRadius');
+    const inputSmoothing = document.getElementById('inputSmoothing');
+    const valRadius = document.getElementById('valRadius');
+    const valSmoothing = document.getElementById('valSmoothing');
+    const statFlat = document.getElementById('statFlat');
+    const statP = document.getElementById('statP');
+    const statDepth = document.getElementById('statDepth');
+    const codeBox = document.getElementById('codeBox');
+
+    // Mathematical implementation of Figma / HyperOS / Martin RGB Squircle
+    function computeCornerParams(width, height, radius, smoothing) {
+      const shortest = Math.min(width, height);
+      radius = Math.min(radius, shortest / 2);
+      const s = smoothing; // 0 to 1
+      
+      const p = Math.min(shortest / 2, (1 + s) * radius);
+      let angle_beta, angle_alpha;
+
+      if (radius > shortest / 4) {
+        const change_percentage = (radius - shortest / 4) / (shortest / 4);
+        angle_beta = 90 * (1 - s * (1 - change_percentage));
+        angle_alpha = 45 * s * (1 - change_percentage);
+      } else {
+        angle_beta = 90 * (1 - s);
+        angle_alpha = 45 * s;
+      }
+
+      const angle_theta = (90 - angle_beta) / 2;
+      const d_div_c = Math.tan(angle_alpha * Math.PI / 180);
+      const h_longest = radius * Math.tan(angle_theta / 2 * Math.PI / 180);
+
+      const l = Math.sin(angle_beta / 2 * Math.PI / 180) * radius * Math.SQRT2;
+      const c = h_longest * Math.cos(angle_alpha * Math.PI / 180);
+      const d = c * d_div_c;
+      const b = ((p - l) - (1 + d_div_c) * c) / 3;
+      const a = 2 * b;
+
+      return { p, a, b, c, d, angle_theta, radius };
+    }
+
+    // Generate full symmetrical SVG path for W x H box
+    function generatePath(W, H, R, S) {
+      if (S <= 0.001) {
+        // Pure rounded rectangle
+        return `M${R},0H${W - R}A${R},${R},0,0,1,${W},${R}V${H - R}A${R},${R},0,0,1,${W - R},${H}H${R}A${R},${R},0,0,1,0,${H - R}V${R}A${R},${R},0,0,1,${R},0Z`;
+      }
+
+      const { p, a, b, c, d, angle_theta, radius } = computeCornerParams(W, H, R, S);
+
+      // Coordinates helper
+      // Top-right corner
+      const arcRad = (deg) => deg * Math.PI / 180;
+      const startArcAngle = (270 + angle_theta);
+      const endArcAngle = (360 - angle_theta);
+
+      // Arc end points on top-right:
+      const trArcStartX = W - radius + radius * Math.cos(arcRad(startArcAngle));
+      const trArcStartY = radius + radius * Math.sin(arcRad(startArcAngle));
+      const trArcEndX = W - radius + radius * Math.cos(arcRad(endArcAngle));
+      const trArcEndY = radius + radius * Math.sin(arcRad(endArcAngle));
+
+      const path = [
+        `M${W / 2},0`,
+        `H${W - p}`,
+        `C${W - (p - a)},0,${W - (p - a - b)},0,${W - (p - a - b - c)},${d}`,
+        `A${radius},${radius},0,0,1,${trArcEndX.toFixed(3)},${trArcEndY.toFixed(3)}`,
+        `C${W},${p - a - b},${W},${p - a},${W},${p}`,
+        `V${H - p}`,
+        `C${W},${H - (p - a)},${W},${H - (p - a - b)},${W - d},${H - (p - a - b - c)}`,
+        `A${radius},${radius},0,0,1,${(W - (p - a - b - c)).toFixed(3)},${(H - d).toFixed(3)}`,
+        `C${W - (p - a - b)},${H},${W - (p - a)},${H},${W - p},${H}`,
+        `H${p}`,
+        `C${p - a},${H},${p - a - b},${H},${p - a - b - c},${H - d}`,
+        `A${radius},${radius},0,0,1,${d.toFixed(3)},${(H - (p - a - b - c)).toFixed(3)}`,
+        `C0,${H - (p - a - b)},0,${H - (p - a)},0,${H - p}`,
+        `V${p}`,
+        `C0,${p - a},0,${p - a - b},${d},${p - a - b - c}`,
+        `A${radius},${radius},0,0,1,${(p - a - b - c).toFixed(3)},${d.toFixed(3)}`,
+        `C${p - a - b},0,${p - a},0,${p},0`,
+        `Z`
+      ].join('');
+
+      return path;
+    }
+
+    // Shadow path (right half only, from 50,0 to 50,100)
+    function generateShadowPath(R, S) {
+      const W = 100, H = 100;
+      if (S <= 0.001) {
+        return `M50,0H${W - R}A${R},${R},0,0,1,${W},${R}V${H - R}A${R},${R},0,0,1,${W - R},${H}H50`;
+      }
+      const { p, a, b, c, d, angle_theta, radius } = computeCornerParams(W, H, R, S);
+      const arcRad = (deg) => deg * Math.PI / 180;
+      const trArcEndX = W - radius + radius * Math.cos(arcRad(360 - angle_theta));
+      const trArcEndY = radius + radius * Math.sin(arcRad(360 - angle_theta));
+
+      return [
+        `M50,0`,
+        `H${W - p}`,
+        `C${W - (p - a)},0,${W - (p - a - b)},0,${W - (p - a - b - c)},${d}`,
+        `A${radius},${radius},0,0,1,${trArcEndX.toFixed(3)},${trArcEndY.toFixed(3)}`,
+        `C${W},${p - a - b},${W},${p - a},${W},${p}`,
+        `V${H - p}`,
+        `C${W},${H - (p - a)},${W},${H - (p - a - b)},${W - d},${H - (p - a - b - c)}`,
+        `A${radius},${radius},0,0,1,${(W - (p - a - b - c)).toFixed(3)},${(H - d).toFixed(3)}`,
+        `C${W - (p - a - b)},${H},${W - (p - a)},${H},${W - p},${H}`,
+        `H50`
+      ].join('');
+    }
+
+    // Badge Label background
+    function generateBadgeBg(W, R, S) {
+      const H = 100;
+      if (S <= 0.001) {
+        return `M50,100H${W - R}A${R},${R},0,0,0,${W},${H - R}V${R}A${R},${R},0,0,0,${W - R},0H50V100Z`;
+      }
+      const { p, a, b, c, d, angle_theta, radius } = computeCornerParams(W, H, R, S);
+      const arcRad = (deg) => deg * Math.PI / 180;
+      const trArcEndX = W - radius + radius * Math.cos(arcRad(360 - angle_theta));
+      const trArcEndY = radius + radius * Math.sin(arcRad(360 - angle_theta));
+
+      return [
+        `M50,100`,
+        `H${W - p}`,
+        `C${W - (p - a)},100,${W - (p - a - b)},100,${W - (p - a - b - c)},${100 - d}`,
+        `A${radius},${radius},0,0,0,${W - d},${(100 - (p - a - b - c)).toFixed(3)}`,
+        `C${W},${100 - (p - a - b)},${W},${100 - (p - a)},${W},${100 - p}`,
+        `V${p}`,
+        `C${W},${p - a},${W},${p - a - b},${W - d},${p - a - b - c}`,
+        `A${radius},${radius},0,0,0,${(W - (p - a - b - c)).toFixed(3)},${d.toFixed(3)}`,
+        `C${W - (p - a - b)},0,${W - (p - a)},0,${W - p},0`,
+        `H50V100Z`
+      ].join('');
+    }
+
+    function render() {
+      const R = parseFloat(inputRadius.value);
+      const S = parseFloat(inputSmoothing.value) / 100.0;
+
+      valRadius.innerText = R.toFixed(1) + " pt";
+      valSmoothing.innerText = Math.round(S * 100) + " %";
+
+      const p = Math.min(50, (1 + S) * R);
+      const flat = Math.max(0, 100 - 2 * p);
+      const depth = R * (1 - 1 / Math.SQRT2);
+
+      statFlat.innerText = flat.toFixed(1) + " pt";
+      statP.innerText = p.toFixed(1) + " pt";
+      statDepth.innerText = depth.toFixed(2) + " pt";
+
+      const path = generatePath(100, 100, R, S);
+      currentSquirclePath = path;
+
+      const shadow = generateShadowPath(R, S);
+
+      // Square icons
+      document.getElementById('bgVK').setAttribute('d', path);
+      document.getElementById('bgDiscord').setAttribute('d', path);
+      document.getElementById('bgSteam').setAttribute('d', path);
+      document.getElementById('bgInstagramClip').setAttribute('d', path);
+
+      // Badges
+      document.getElementById('bgTelegramLogo').setAttribute('d', path);
+      document.getElementById('bgLinkedInLogo').setAttribute('d', path);
+      document.getElementById('bgEmailLogo').setAttribute('d', path);
+
+      document.getElementById('shadowTelegram').setAttribute('d', shadow);
+      document.getElementById('shadowLinkedIn').setAttribute('d', shadow);
+      document.getElementById('shadowEmail').setAttribute('d', shadow);
+
+      document.getElementById('bgTelegramLabel').setAttribute('d', generateBadgeBg(388, R, S));
+      document.getElementById('bgLinkedInLabel').setAttribute('d', generateBadgeBg(372, R, S));
+      document.getElementById('bgEmailLabel').setAttribute('d', generateBadgeBg(302.999, R, S));
+
+      codeBox.innerText = path;
+    }
+
+    inputRadius.addEventListener('input', () => {
+      document.querySelectorAll('.presets button').forEach(b => b.classList.remove('active'));
+      render();
+    });
+
+    inputSmoothing.addEventListener('input', () => {
+      document.querySelectorAll('.presets button').forEach(b => b.classList.remove('active'));
+      render();
+    });
+
+    function setPreset(r, s, btn) {
+      inputRadius.value = r;
+      inputSmoothing.value = s;
+      document.querySelectorAll('.presets button').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      render();
+    }
+
+    // Init: R=25.0, Smoothing=35% (Deep round corner + flat side)
+    render();
+  </script>
+</body>
+</html>
